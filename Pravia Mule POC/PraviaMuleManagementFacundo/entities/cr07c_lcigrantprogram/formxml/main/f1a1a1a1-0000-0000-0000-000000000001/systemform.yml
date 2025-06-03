@@ -1,0 +1,120 @@
+systemform:
+  formid: '{f1a1a1a1-0000-0000-0000-000000000001}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{f1a1a1a1-0000-0000-0000-000000000002}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%'
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{f1a1a1a1-0000-0000-0000-000000000003}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{f1a1a1a1-0000-0000-0000-000000000004}'
+                      labels:
+                        label:
+                          '@description': Program Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_programname
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_programname
+                  - cell:
+                      '@id': '{f1a1a1a1-0000-0000-0000-000000000005}'
+                      labels:
+                        label:
+                          '@description': Program ID
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_programid
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_programid
+                  - cell:
+                      '@id': '{f1a1a1a1-0000-0000-0000-000000000006}'
+                      labels:
+                        label:
+                          '@description': Purpose
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_purpose
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_purpose
+                  - cell:
+                      '@id': '{f1a1a1a1-0000-0000-0000-000000000007}'
+                      labels:
+                        label:
+                          '@description': Grant Type
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_granttype
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_granttype
+                  - cell:
+                      '@id': '{f1a1a1a1-0000-0000-0000-000000000008}'
+                      labels:
+                        label:
+                          '@description': Total Funding
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_totalfunding
+                        '@classid': '{C6D2C6DF-5B6A-4A2A-9C7B-595C6FA6A5C7}'
+                        '@datafieldname': cr07c_totalfunding
+                  - cell:
+                      '@id': '{f1a1a1a1-0000-0000-0000-000000000009}'
+                      labels:
+                        label:
+                          '@description': Application Deadline
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_applicationdeadline
+                        '@classid': '{C6D2C6DF-5B6A-4A2A-9C7B-595C6FA6A5C7}'
+                        '@datafieldname': cr07c_applicationdeadline
+                  - cell:
+                      '@id': '{f1a1a1a1-0000-0000-0000-000000000010}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_status
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_status
+                  - cell:
+                      '@id': '{f1a1a1a1-0000-0000-0000-000000000011}'
+                      labels:
+                        label:
+                          '@description': Funding Round
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_fundinground
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_fundinground
+                  - cell:
+                      '@id': '{f1a1a1a1-0000-0000-0000-000000000012}'
+                      labels:
+                        label:
+                          '@description': Notes
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_notes
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_notes

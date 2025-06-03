@@ -1,0 +1,150 @@
+systemform:
+  formid: '{f2b2b2b2-0000-0000-0000-000000000001}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{f2b2b2b2-0000-0000-0000-000000000002}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%'
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{f2b2b2b2-0000-0000-0000-000000000003}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{f2b2b2b2-0000-0000-0000-000000000004}'
+                      labels:
+                        label:
+                          '@description': Application ID
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_applicationid
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_applicationid
+                  - cell:
+                      '@id': '{f2b2b2b2-0000-0000-0000-000000000005}'
+                      labels:
+                        label:
+                          '@description': Organization
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_organization
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_organization
+                  - cell:
+                      '@id': '{f2b2b2b2-0000-0000-0000-000000000006}'
+                      labels:
+                        label:
+                          '@description': Contact
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_contact
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_contact
+                  - cell:
+                      '@id': '{f2b2b2b2-0000-0000-0000-000000000007}'
+                      labels:
+                        label:
+                          '@description': Grant Program Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_grantprogramname
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_grantprogramname
+                  - cell:
+                      '@id': '{f2b2b2b2-0000-0000-0000-000000000008}'
+                      labels:
+                        label:
+                          '@description': Amount Requested
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_amountrequested
+                        '@classid': '{C6D2C6DF-5B6A-4A2A-9C7B-595C6FA6A5C7}'
+                        '@datafieldname': cr07c_amountrequested
+                  - cell:
+                      '@id': '{f2b2b2b2-0000-0000-0000-000000000009}'
+                      labels:
+                        label:
+                          '@description': Submitted Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_submitteddate
+                        '@classid': '{C6D2C6DF-5B6A-4A2A-9C7B-595C6FA6A5C7}'
+                        '@datafieldname': cr07c_submitteddate
+                  - cell:
+                      '@id': '{f2b2b2b2-0000-0000-0000-000000000010}'
+                      labels:
+                        label:
+                          '@description': Application Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_applicationstatus
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_applicationstatus
+                  - cell:
+                      '@id': '{f2b2b2b2-0000-0000-0000-000000000011}'
+                      labels:
+                        label:
+                          '@description': Awarded Amount
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_awardedamount
+                        '@classid': '{C6D2C6DF-5B6A-4A2A-9C7B-595C6FA6A5C7}'
+                        '@datafieldname': cr07c_awardedamount
+                  - cell:
+                      '@id': '{f2b2b2b2-0000-0000-0000-000000000012}'
+                      labels:
+                        label:
+                          '@description': Award Notification Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_awardnotificationdate
+                        '@classid': '{C6D2C6DF-5B6A-4A2A-9C7B-595C6FA6A5C7}'
+                        '@datafieldname': cr07c_awardnotificationdate
+                  - cell:
+                      '@id': '{f2b2b2b2-0000-0000-0000-000000000013}'
+                      labels:
+                        label:
+                          '@description': Climate Zone
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_climatezone
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_climatezone
+                  - cell:
+                      '@id': '{f2b2b2b2-0000-0000-0000-000000000014}'
+                      labels:
+                        label:
+                          '@description': Land Use Type
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_landusetype
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_landusetype
+                  - cell:
+                      '@id': '{f2b2b2b2-0000-0000-0000-000000000015}'
+                      labels:
+                        label:
+                          '@description': Comments
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_comments
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_comments
