@@ -15,7 +15,7 @@ systemform:
             '@languagecode': 1033
         columns:
           column:
-            '@width': 100%'
+            '@width': 100
             sections:
               section:
                 '@showlabel': false
