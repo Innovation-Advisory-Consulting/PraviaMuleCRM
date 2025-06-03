@@ -1,0 +1,84 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{de393968-1e8e-46f1-aaee-3f0a1c5b8e41}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr07c_firstname
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr07c_contact2id
+        cell:
+        - '@name': cr07c_firstname
+          '@width': 300
+        - '@name': cr07c_lastname
+          '@width': 150
+        - '@name': cr07c_email
+          '@width': 150
+        - '@name': cr07c_orgname
+          '@width': 150
+        - '@name': cr07c_preferredcontactmethod
+          '@width': 150
+        - '@name': cr07c_role
+          '@width': 150
+        - '@name': cr07c_status
+          '@width': 150
+        - '@name': cr07c_phones
+          '@width': 150
+        - '@name': cr07c_title
+          '@width': 150
+        - '@name': cr07c_notes
+          '@width': 150
+        - '@name': cr07c_ssn
+          '@width': 150
+        - '@name': cr07c_dl
+          '@width': 150
+        - '@name': cr07c_uid1
+          '@width': 150
+        - '@name': cr07c_uid2
+          '@width': 150
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr07c_contact2
+        attribute:
+        - '@name': cr07c_contact2id
+        - '@name': cr07c_firstname
+        - '@name': createdon
+        - '@name': cr07c_lastname
+        - '@name': cr07c_email
+        - '@name': cr07c_orgname
+        - '@name': cr07c_preferredcontactmethod
+        - '@name': cr07c_role
+        - '@name': cr07c_status
+        - '@name': cr07c_phones
+        - '@name': cr07c_title
+        - '@name': cr07c_notes
+        - '@name': cr07c_ssn
+        - '@name': cr07c_dl
+        - '@name': cr07c_uid1
+        - '@name': cr07c_uid2
+        order:
+          '@attribute': cr07c_firstname
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Active Contacts
+      '@languagecode': 1033

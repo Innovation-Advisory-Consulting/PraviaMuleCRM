@@ -1,0 +1,39 @@
+MissingDependencies:
+  MissingDependency:
+  - Required:
+      '@type': 61
+      '@schemaName': msdyn_/Images/AppModule_Default_Icon.png
+      '@displayName': msdyn_/Images/AppModule_Default_Icon.png
+      '@solution': AppModuleWebResources (2.5)
+    Dependent:
+      '@type': 80
+      '@schemaName': cr07c_ClientUserMa8921e183
+      '@displayName': Client User Management
+  - Required:
+      '@type': SettingDefinition
+      '@displayName': AppChannel
+      '@solution': msdyn_AppFrameworkInfraExtensions (1.0.0.14)
+      '@id.uniquename': AppChannel
+      package:
+        '@appName': PowerAppsAppFramework Package
+        '@version': 1.0.0.19
+        '#text': PowerAppsAppFramework_Anchor (1.0.0.19)
+    Dependent:
+      '@type': AppSetting
+      '@displayName': parentappmoduleid.uniquename=cr07c_ClientUserMa8921e183,settingdefinitionid.uniquename=AppChannel
+      '@id.parentappmoduleid.uniquename': cr07c_ClientUserMa8921e183
+      '@id.settingdefinitionid.uniquename': AppChannel
+  - Required:
+      '@type': SettingDefinition
+      '@displayName': IsAppGeneratedByPlanDesigner
+      '@solution': msdyn_AppFrameworkInfraExtensions (1.0.0.14)
+      '@id.uniquename': IsAppGeneratedByPlanDesigner
+      package:
+        '@appName': PowerAppsAppFramework Package
+        '@version': 1.0.0.19
+        '#text': PowerAppsAppFramework_Anchor (1.0.0.19)
+    Dependent:
+      '@type': AppSetting
+      '@displayName': parentappmoduleid.uniquename=cr07c_ClientUserMa8921e183,settingdefinitionid.uniquename=IsAppGeneratedByPlanDesigner
+      '@id.parentappmoduleid.uniquename': cr07c_ClientUserMa8921e183
+      '@id.settingdefinitionid.uniquename': IsAppGeneratedByPlanDesigner
