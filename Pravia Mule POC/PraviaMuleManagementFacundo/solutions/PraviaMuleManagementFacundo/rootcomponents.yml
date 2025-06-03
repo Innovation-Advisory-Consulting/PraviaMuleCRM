@@ -1,0 +1,23 @@
+RootComponents:
+  RootComponent:
+  - '@type': 1
+    '@schemaName': cr07c_case2
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr07c_casestatus
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr07c_contact2
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr07c_organization
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr07c_user2
+    '@behavior': 0
+  - '@type': 62
+    '@schemaName': cr07c_ClientUserMa4d7eba6b
+    '@behavior': 0
+  - '@type': 80
+    '@schemaName': cr07c_ClientUserMa8921e183
+    '@behavior': 0

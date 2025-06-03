@@ -1,0 +1,110 @@
+systemform:
+  formid: '{dc680eea-f315-42e3-81ec-9facc2702402}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{a81a02e6-fe89-454e-82b7-a3f5adbc48c6}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{fe3a4f85-2738-4d45-83b1-f27b26ecbb47}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{a0f57db5-88f1-4a51-ad52-205639423ddb}'
+                      labels:
+                        label:
+                          '@description': Case Title
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_casetitle
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_casetitle
+                  - cell:
+                      '@id': '{71226ddc-b8b5-4bd1-bcbb-8069a183e0bd}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{c50c936a-5f29-4618-b371-08678359f775}'
+                      labels:
+                        label:
+                          '@description': Description
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_description
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr07c_description
+                  - cell:
+                      '@id': '{b752dc5e-7a50-47fd-82ad-49828ea94c83}'
+                      labels:
+                        label:
+                          '@description': SubmittedDate
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_submitteddate
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr07c_submitteddate
+                  - cell:
+                      '@id': '{d5977c5d-6161-474a-bf68-5d89f239ddae}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_status
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr07c_status
+                  - cell:
+                      '@id': '{d7b430da-2155-4d53-8540-66a3abf9500c}'
+                      labels:
+                        label:
+                          '@description': AssignedTo
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_assignedto
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr07c_assignedto
+                  - cell:
+                      '@id': '{774b01f7-8c9f-42a3-87f2-5d4a542c3fc9}'
+                      labels:
+                        label:
+                          '@description': ContactID
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_contactid
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr07c_contactid
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033
