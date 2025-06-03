@@ -1,0 +1,25 @@
+Entity:
+  Name:
+    '@LocalizedName': LCI Grant Program
+    '@OriginalName': LCI Grant Program
+    '#text': cr07c_LCIGrantProgram
+  EntityInfo:
+    entity:
+      '@Name': cr07c_LCIGrantProgram
+      LocalizedNames:
+        LocalizedName:
+          '@description': LCI Grant Program
+          '@languagecode': 1033
+      LocalizedCollectionNames:
+        LocalizedCollectionName:
+          '@description': LCI Grant Programs
+          '@languagecode': 1033
+      Descriptions:
+        Description:
+          '@description': This table contains records of LCI grant programs.
+          '@languagecode': 1033
+      EntitySetName: cr07c_lcigrantprograms
+      OwnershipTypeMask: UserOwned
+      IsCustomizable: 1
+      IsRenameable: 1
+      IsSolutionAware: 0
