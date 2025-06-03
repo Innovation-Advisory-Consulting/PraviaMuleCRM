@@ -4,6 +4,7 @@ attribute:
   Name: cr07c_programid
   LogicalName: cr07c_programid
   RequiredLevel: required
+  MaxLength: 100
   DisplayMask: ValidForForm|ValidForGrid
   ImeMode: auto
   ValidForUpdateApi: 1

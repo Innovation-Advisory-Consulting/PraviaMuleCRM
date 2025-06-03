@@ -4,6 +4,7 @@ attribute:
   Name: cr07c_programname
   LogicalName: cr07c_programname
   RequiredLevel: required
+  MaxLength: 200
   DisplayMask: PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm
   ImeMode: auto
   ValidForUpdateApi: 1

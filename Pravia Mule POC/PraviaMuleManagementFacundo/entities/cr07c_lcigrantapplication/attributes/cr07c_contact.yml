@@ -4,6 +4,7 @@ attribute:
   Name: cr07c_contact
   LogicalName: cr07c_contact
   RequiredLevel: required
+  MaxLength: 200
   DisplayMask: ValidForForm|ValidForGrid
   ImeMode: auto
   ValidForUpdateApi: 1

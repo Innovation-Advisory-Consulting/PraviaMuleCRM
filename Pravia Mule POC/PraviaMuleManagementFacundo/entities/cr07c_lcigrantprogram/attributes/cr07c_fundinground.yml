@@ -4,6 +4,7 @@ attribute:
   Name: cr07c_fundinground
   LogicalName: cr07c_fundinground
   RequiredLevel: none
+  MaxLength: 100
   DisplayMask: ValidForForm|ValidForGrid
   ImeMode: auto
   ValidForUpdateApi: 1
