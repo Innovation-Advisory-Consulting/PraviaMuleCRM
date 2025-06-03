@@ -1,0 +1,36 @@
+attribute:
+  '@PhysicalName': cr07c_ApplicationStatus
+  Type: picklist
+  Name: cr07c_applicationstatus
+  LogicalName: cr07c_applicationstatus
+  RequiredLevel: required
+  DisplayMask: ValidForForm|ValidForGrid
+  ImeMode: auto
+  ValidForUpdateApi: 1
+  ValidForReadApi: 1
+  ValidForCreateApi: 1
+  IsCustomField: 1
+  IsAuditEnabled: 1
+  IsSecured: 0
+  IntroducedVersion: 1.0.0.0
+  IsCustomizable: 1
+  IsRenameable: 1
+  CanModifySearchSettings: 1
+  CanModifyRequirementLevelSettings: 1
+  CanModifyAdditionalSettings: 1
+  SourceType: 0
+  IsGlobalFilterEnabled: 0
+  IsSortableEnabled: 0
+  CanModifyGlobalFilterSettings: 1
+  OptionSet:
+    Option:
+      - Value: 100000000
+        Label: Draft
+      - Value: 100000001
+        Label: Submitted
+      - Value: 100000002
+        Label: In Review
+      - Value: 100000003
+        Label: Approved
+      - Value: 100000004
+        Label: Denied
