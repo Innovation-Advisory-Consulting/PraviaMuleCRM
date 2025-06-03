@@ -236,6 +236,7 @@ SolutionComponents:
   - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_status.yml
   - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_fundinground.yml
   - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_notes.yml
+  - '@path': /entities/cr07c_lcigrantprogram/formxml/main/f1a1a1a1-0000-0000-0000-000000000001
   - '@path': /entities/cr07c_lcigrantapplication
   - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_applicationid.yml
   - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_organization.yml
@@ -249,3 +250,4 @@ SolutionComponents:
   - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_climatezone.yml
   - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_landusetype.yml
   - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_comments.yml
+  - '@path': /entities/cr07c_lcigrantapplication/formxml/main/f2b2b2b2-0000-0000-0000-000000000001
