@@ -21,3 +21,9 @@ RootComponents:
   - '@type': 80
     '@schemaName': cr07c_ClientUserMa8921e183
     '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr07c_lcigrantprogram
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr07c_lcigrantapplication
+    '@behavior': 0

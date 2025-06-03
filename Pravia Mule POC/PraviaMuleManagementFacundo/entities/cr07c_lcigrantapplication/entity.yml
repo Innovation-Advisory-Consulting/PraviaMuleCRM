@@ -1,0 +1,34 @@
+Entity:
+  Name:
+    '@LocalizedName': LCI Grant Application
+    '@OriginalName': LCI Grant Application
+    '#text': cr07c_LCIGrantApplication
+  EntityInfo:
+    entity:
+      '@Name': cr07c_LCIGrantApplication
+      LocalizedNames:
+        LocalizedName:
+          '@description': LCI Grant Application
+          '@languagecode': 1033
+      LocalizedCollectionNames:
+        LocalizedCollectionName:
+          '@description': LCI Grant Applications
+          '@languagecode': 1033
+      Descriptions:
+        Description:
+          '@description': This table contains records of LCI grant applications.
+          '@languagecode': 1033
+      EntitySetName: cr07c_lcigrantapplications
+      IsDuplicateCheckSupported: 1
+      IsBusinessProcessEnabled: 0
+      IsRequiredOffline: 0
+      IsInteractionCentricEnabled: 0
+      IsCollaboration: 0
+      AutoRouteToOwnerQueue: 0
+      IsConnectionsEnabled: 0
+      IsDocumentManagementEnabled: 0
+      ChangeTrackingEnabled: 1
+      CanChangeTrackingBeEnabled: 1
+      IsEnabledForExternalChannels: 0
+      IsMSTeamsIntegrationEnabled: 0
+      IsSolutionAware: 1
