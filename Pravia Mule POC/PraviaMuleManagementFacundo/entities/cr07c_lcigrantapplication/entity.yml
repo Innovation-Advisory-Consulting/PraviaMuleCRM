@@ -19,6 +19,7 @@ Entity:
           '@description': This table contains records of LCI grant applications.
           '@languagecode': 1033
       EntitySetName: cr07c_lcigrantapplications
+      PrimaryNameAttribute: cr07c_applicationid
       IsDuplicateCheckSupported: 1
       IsBusinessProcessEnabled: 0
       IsRequiredOffline: 0
