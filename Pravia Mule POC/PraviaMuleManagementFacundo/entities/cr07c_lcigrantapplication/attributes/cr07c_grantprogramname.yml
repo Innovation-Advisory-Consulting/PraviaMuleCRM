@@ -4,6 +4,7 @@ attribute:
   Name: cr07c_grantprogramname
   LogicalName: cr07c_grantprogramname
   RequiredLevel: required
+  MaxLength: 200
   DisplayMask: ValidForForm|ValidForGrid
   ImeMode: auto
   ValidForUpdateApi: 1
