@@ -1,0 +1,47 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{4ddcd47e-442b-4239-a5ec-aa6ca814bd5d}'
+  layoutxml:
+    grid:
+      '@name': cr07c_organizations
+      '@jump': cr07c_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': cr07c_organization
+        '@id': cr07c_organizationid
+        cell:
+        - '@name': cr07c_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 2
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr07c_organization
+        attribute:
+        - '@name': cr07c_organizationid
+        - '@name': cr07c_name
+        - '@name': createdon
+        order:
+          '@attribute': cr07c_name
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Organization Associated View
+      '@languagecode': 1033
