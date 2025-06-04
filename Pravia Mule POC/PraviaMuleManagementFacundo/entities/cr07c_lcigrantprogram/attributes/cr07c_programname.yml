@@ -1,6 +1,0 @@
-DisplayName: Program Name
-SchemaName: cr07c_programname
-DataType: String
-RequiredLevel: ApplicationRequired
-MaxLength: 200
-IsPrimaryName: true

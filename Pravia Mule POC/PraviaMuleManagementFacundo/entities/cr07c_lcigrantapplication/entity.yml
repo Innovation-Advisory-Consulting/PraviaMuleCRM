@@ -1,6 +1,0 @@
-# LCI Grant Application Entity Definition
-DisplayName: LCI Grant Application
-SchemaName: cr07c_lcigrantapplication
-Description: Represents an organization's grant application for LCI programs.
-PrimaryNameAttribute: cr07c_applicationid
-OwnershipType: UserOwned
