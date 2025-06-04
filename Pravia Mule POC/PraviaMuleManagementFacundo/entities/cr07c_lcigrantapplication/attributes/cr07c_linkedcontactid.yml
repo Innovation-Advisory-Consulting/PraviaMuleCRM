@@ -1,6 +1,0 @@
-DisplayName: Linked Contact
-SchemaName: cr07c_linkedcontactid
-DataType: Lookup
-RequiredLevel: ApplicationRequired
-Targets:
-  - contact

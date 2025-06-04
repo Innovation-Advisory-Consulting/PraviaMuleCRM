@@ -1,7 +1,0 @@
-DisplayName: Application ID
-SchemaName: cr07c_applicationid
-DataType: String
-RequiredLevel: ApplicationRequired
-MaxLength: 50
-AutoNumberFormat: APP-{SEQNUM:6}
-IsPrimaryName: true

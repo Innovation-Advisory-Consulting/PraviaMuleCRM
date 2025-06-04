@@ -1,7 +1,0 @@
-DisplayName: Program ID
-SchemaName: cr07c_programid
-DataType: String
-RequiredLevel: ApplicationRequired
-MaxLength: 50
-AutoNumberFormat: LCI-{SEQNUM:6}
-IsPrimaryName: false

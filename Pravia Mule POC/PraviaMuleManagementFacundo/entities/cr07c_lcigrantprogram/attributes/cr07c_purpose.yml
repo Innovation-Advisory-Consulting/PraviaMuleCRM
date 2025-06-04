@@ -1,5 +1,0 @@
-DisplayName: Purpose
-SchemaName: cr07c_purpose
-DataType: Memo
-RequiredLevel: ApplicationRequired
-MaxLength: 2000

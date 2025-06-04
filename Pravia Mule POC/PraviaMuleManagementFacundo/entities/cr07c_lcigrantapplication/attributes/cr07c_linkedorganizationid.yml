@@ -1,6 +1,0 @@
-DisplayName: Linked Organization
-SchemaName: cr07c_linkedorganizationid
-DataType: Lookup
-RequiredLevel: ApplicationRequired
-Targets:
-  - account
