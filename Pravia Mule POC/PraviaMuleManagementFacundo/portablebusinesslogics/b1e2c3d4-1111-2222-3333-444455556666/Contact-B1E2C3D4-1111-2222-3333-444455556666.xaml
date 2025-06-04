@@ -11,6 +11,20 @@
   </this:ContactWorkflowB1E2C3D4111122223333444455556666.CreatedEntities>
   <mva:VisualBasic.Settings>Assembly references and imported namespaces for internal implementation</mva:VisualBasic.Settings>
   <mxswa:Workflow>
-    <!-- Add business logic activities here as needed -->
+    <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionBranch, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ContactInactiveRule">
+      <mxswa:ActivityReference.Arguments>
+        <InArgument x:TypeArguments="x:Boolean" x:Key="Condition">
+          [InputEntities("primaryEntity").Attributes("cr07c_status").ToString() = "Inactive"]
+        </InArgument>
+      </mxswa:ActivityReference.Arguments>
+      <mxswa:ActivityReference.Properties>
+        <sco:Collection x:TypeArguments="Activity" x:Key="IfTrue">
+          <mxswa:SetEntityProperty Attribute="cr07c_role" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="cr07c_contact2" Value="Former Contact" />
+        </sco:Collection>
+        <sco:Collection x:TypeArguments="Activity" x:Key="IfFalse">
+          <!-- No action if contact is active -->
+        </sco:Collection>
+      </mxswa:ActivityReference.Properties>
+    </mxswa:ActivityReference>
   </mxswa:Workflow>
 </Activity>
