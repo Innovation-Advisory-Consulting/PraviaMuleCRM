@@ -1,0 +1,110 @@
+systemform:
+  formid: '{2f533ca4-6b55-4467-88e2-d4af423dcf7b}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{1139b646-7a25-4e14-8ed9-ba0f3e4decf4}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{d7b3ae07-6f3b-43df-87b5-11c11dd00a14}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{2928d767-2aaa-4d91-a07d-5c03817e3843}'
+                      labels:
+                        label:
+                          '@description': AssignedRole
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_assignedrole
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_assignedrole
+                  - cell:
+                      '@id': '{435284ce-8104-4e34-ae08-2555c7aff319}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{03dbaf1c-68ea-4270-b56a-2bb2445926f7}'
+                      labels:
+                        label:
+                          '@description': InvitationDate
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_invitationdate
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr07c_invitationdate
+                  - cell:
+                      '@id': '{c40679e1-3828-4c16-a114-09cb94ede56d}'
+                      labels:
+                        label:
+                          '@description': RegisteredDate
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_registereddate
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr07c_registereddate
+                  - cell:
+                      '@id': '{8eff2bc0-f176-4d76-841f-6ed706bb8cd9}'
+                      labels:
+                        label:
+                          '@description': DeactivationDate
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_deactivationdate
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr07c_deactivationdate
+                  - cell:
+                      '@id': '{ffb9fef5-e649-4d44-b98f-40c1ca465a2f}'
+                      labels:
+                        label:
+                          '@description': LinkedContact
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_linkedcontact
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr07c_linkedcontact
+                  - cell:
+                      '@id': '{6361f753-a9a2-4a4e-9b5d-6d90ba2c777c}'
+                      labels:
+                        label:
+                          '@description': LinkedOrg
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_linkedorg
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr07c_linkedorg
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

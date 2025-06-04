@@ -1,0 +1,170 @@
+systemform:
+  formid: '{251b2959-03ba-442a-b9eb-397897a77c74}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{fd636940-586b-457a-b30e-078ece8cb2c3}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{e527fcd4-b410-4fe1-8a62-3bc9f3f62a26}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{c19bfd33-4b2f-4a70-962e-a1d3a3223f2f}'
+                      labels:
+                        label:
+                          '@description': Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_name
+                  - cell:
+                      '@id': '{031e75fd-c254-4e53-a01e-df6227a6ca53}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{6e2f0f8d-908d-4e4c-a272-7c56fd5f5bcd}'
+                      labels:
+                        label:
+                          '@description': Type
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_type
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr07c_type
+                  - cell:
+                      '@id': '{5329e9ca-ec06-458e-9cd3-95fd43504421}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr07c_status
+                  - cell:
+                      '@id': '{5e8988a7-bfdf-4045-863a-787dea4e42af}'
+                      labels:
+                        label:
+                          '@description': ParentOrg
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_parentorg
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr07c_parentorg
+                  - cell:
+                      '@id': '{a85049ad-72dc-4e57-9178-2ada4d97f6ac}'
+                      labels:
+                        label:
+                          '@description': Address
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_address
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr07c_address
+                  - cell:
+                      '@id': '{da4ae069-c600-4803-b3a8-d4e422612276}'
+                      labels:
+                        label:
+                          '@description': UID1
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_uid1
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr07c_uid1
+                  - cell:
+                      '@id': '{267d1d3d-7ed7-4f69-99df-75d971c28069}'
+                      labels:
+                        label:
+                          '@description': UID2
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_uid2
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr07c_uid2
+                  - cell:
+                      '@id': '{2bbb9268-2f94-4619-8191-38340b22e652}'
+                      labels:
+                        label:
+                          '@description': SICCode
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_siccode
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr07c_siccode
+                  - cell:
+                      '@id': '{ed069e39-1647-4308-ae88-63be4b3f217e}'
+                      labels:
+                        label:
+                          '@description': Website
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_website
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr07c_website
+                  - cell:
+                      '@id': '{7857805d-fd17-4ded-84e4-4153ec9ac7ee}'
+                      labels:
+                        label:
+                          '@description': SubmittedDate
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_submitteddate
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr07c_submitteddate
+                  - cell:
+                      '@id': '{7433ff84-a91f-4682-9c22-72a0970bb2a9}'
+                      labels:
+                        label:
+                          '@description': DispositionDate
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_dispositiondate
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr07c_dispositiondate
+                  - cell:
+                      '@id': '{29562d40-f6cc-4f0f-a653-036ec70670ed}'
+                      labels:
+                        label:
+                          '@description': PrimaryContactID
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_primarycontactid
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr07c_primarycontactid
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

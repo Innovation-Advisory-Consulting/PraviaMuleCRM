@@ -1,0 +1,44 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{53b60bdb-699d-4371-935f-83f12f80192a}'
+  layoutxml:
+    grid:
+      '@name': cr07c_lcigrantapplications
+      '@jump': cr07c_applicationid
+      '@select': 1
+      '@icon': 1
+      '@preview': 0
+      row:
+        '@name': cr07c_lcigrantapplication
+        '@id': cr07c_lcigrantapplicationid
+        cell:
+        - '@name': cr07c_applicationid
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 64
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr07c_lcigrantapplication
+        attribute:
+        - '@name': cr07c_lcigrantapplicationid
+        - '@name': cr07c_applicationid
+        - '@name': createdon
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0.0.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': LCI Grant Application Lookup View
+      '@languagecode': 1033
