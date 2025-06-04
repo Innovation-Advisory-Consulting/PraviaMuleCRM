@@ -1,0 +1,47 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{506dcd0c-c5e3-4701-ade8-f6f43fd0c66d}'
+  layoutxml:
+    grid:
+      '@name': cr07c_casestatuses
+      '@jump': cr07c_statusname
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': cr07c_casestatus
+        '@id': cr07c_casestatusid
+        cell:
+        - '@name': cr07c_statusname
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 2
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr07c_casestatus
+        attribute:
+        - '@name': cr07c_casestatusid
+        - '@name': cr07c_statusname
+        - '@name': createdon
+        order:
+          '@attribute': cr07c_statusname
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Case Status Associated View
+      '@languagecode': 1033
