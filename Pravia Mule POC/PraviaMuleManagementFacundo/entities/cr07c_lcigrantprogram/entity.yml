@@ -1,0 +1,6 @@
+# LCI Grant Program Entity Definition
+DisplayName: LCI Grant Program
+SchemaName: cr07c_lcigrantprogram
+Description: Represents a government grant initiative for LCI.
+PrimaryNameAttribute: cr07c_programname
+OwnershipType: UserOwned

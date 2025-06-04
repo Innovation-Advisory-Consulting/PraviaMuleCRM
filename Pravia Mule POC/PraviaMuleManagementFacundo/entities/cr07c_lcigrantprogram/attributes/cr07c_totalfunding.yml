@@ -1,0 +1,4 @@
+DisplayName: Total Funding
+SchemaName: cr07c_totalfunding
+DataType: Money
+RequiredLevel: ApplicationRequired

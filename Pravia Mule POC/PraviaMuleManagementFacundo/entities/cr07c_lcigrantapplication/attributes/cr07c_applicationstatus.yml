@@ -1,0 +1,10 @@
+DisplayName: Application Status
+SchemaName: cr07c_applicationstatus
+DataType: Picklist
+RequiredLevel: ApplicationRequired
+OptionSet:
+  - Draft
+  - Submitted
+  - In Review
+  - Approved
+  - Denied

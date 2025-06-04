@@ -1,0 +1,9 @@
+DisplayName: Status
+SchemaName: cr07c_status
+DataType: Picklist
+RequiredLevel: ApplicationRequired
+OptionSet:
+  - Open
+  - Closed
+  - Awarded
+  - Cancelled

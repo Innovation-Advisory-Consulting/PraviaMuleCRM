@@ -1,0 +1,8 @@
+DisplayName: Grant Type
+SchemaName: cr07c_granttype
+DataType: Picklist
+RequiredLevel: ApplicationRequired
+OptionSet:
+  - Planning
+  - Implementation
+  - Heat Resilience

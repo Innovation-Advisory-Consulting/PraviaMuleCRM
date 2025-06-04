@@ -1,0 +1,4 @@
+DisplayName: Award Notification Date
+SchemaName: cr07c_awardnotificationdate
+DataType: DateOnly
+RequiredLevel: ApplicationRequired
