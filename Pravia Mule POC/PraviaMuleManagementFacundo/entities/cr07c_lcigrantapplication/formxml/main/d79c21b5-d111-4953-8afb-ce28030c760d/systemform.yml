@@ -1,0 +1,60 @@
+systemform:
+  formid: '{d79c21b5-d111-4953-8afb-ce28030c760d}'
+  IntroducedVersion: 1.0.0.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{91742eb7-3585-42d6-80c7-fe3b452c2e4c}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{36f5a2d1-17c5-4332-bb34-6b04acc9dca1}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{6872760c-1ddb-40fe-bc57-8dcdcdd194c9}'
+                      labels:
+                        label:
+                          '@description': Application ID
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr07c_applicationid
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr07c_applicationid
+                  - cell:
+                      '@id': '{fd59703b-7c49-43bf-9cc6-f4c7930541cd}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033
