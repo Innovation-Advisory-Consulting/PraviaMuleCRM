@@ -325,4 +325,5 @@ SolutionComponents:
   - '@path': /entityrelationships/user_cr07c_lcigrantprogram
   - '@path': /entityrelationships/user_cr07c_organization
   - '@path': /entityrelationships/user_cr07c_user2
+  - '@path': /portablebusinesslogics/c511e1e6-5941-f011-b4cb-002248222778
   - '@path': /publishers/Crfc198

@@ -21,6 +21,9 @@ RootComponents:
   - '@type': 1
     '@schemaName': cr07c_user2
     '@behavior': 0
+  - '@type': 29
+    '@id': '{c511e1e6-5941-f011-b4cb-002248222778}'
+    '@behavior': 0
   - '@type': 62
     '@schemaName': cr07c_ClientUserMa4d7eba6b
     '@behavior': 0
