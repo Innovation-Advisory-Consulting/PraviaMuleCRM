@@ -1,5 +1,0 @@
-DisplayName: Climate Zone
-SchemaName: cr07c_climatezone
-DataType: Picklist
-RequiredLevel: ApplicationRequired
-OptionSet: Baseline_ClimateZone
