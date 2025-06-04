@@ -11,6 +11,20 @@
   </this:UserWorkflowC2D3E4F5222233334444555566667777.CreatedEntities>
   <mva:VisualBasic.Settings>Assembly references and imported namespaces for internal implementation</mva:VisualBasic.Settings>
   <mxswa:Workflow>
-    <!-- Add business logic activities here as needed -->
+    <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionBranch, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="UserDeactivationRule">
+      <mxswa:ActivityReference.Arguments>
+        <InArgument x:TypeArguments="x:Boolean" x:Key="Condition">
+          [Not(IsNull(InputEntities("primaryEntity").Attributes("cr07c_deactivationdate")))]
+        </InArgument>
+      </mxswa:ActivityReference.Arguments>
+      <mxswa:ActivityReference.Properties>
+        <sco:Collection x:TypeArguments="Activity" x:Key="IfTrue">
+          <mxswa:SetEntityProperty Attribute="cr07c_assignedrole" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="cr07c_user2" Value="Inactive" />
+        </sco:Collection>
+        <sco:Collection x:TypeArguments="Activity" x:Key="IfFalse">
+          <!-- No action if user is active -->
+        </sco:Collection>
+      </mxswa:ActivityReference.Properties>
+    </mxswa:ActivityReference>
   </mxswa:Workflow>
 </Activity>
