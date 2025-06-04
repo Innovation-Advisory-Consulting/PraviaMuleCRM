@@ -230,3 +230,28 @@ SolutionComponents:
   - '@path': /portablebusinesslogics/c511e1e6-5941-f011-b4cb-002248222778
   - '@path': /portablebusinesslogics/d3e4f5a6-3333-4444-5555-666677778888
   - '@path': /publishers/Crfc198
+  - '@path': /entities/cr07c_lcigrantprogram
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_programname.yml
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_programid.yml
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_purpose.yml
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_granttype.yml
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_totalfunding.yml
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_applicationdeadline.yml
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_status.yml
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_fundinground.yml
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_notes.yml
+  - '@path': /entities/cr07c_lcigrantapplication
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_applicationid.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_organization.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_contact.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_grantprogramname.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_amountrequested.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_submitteddate.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_applicationstatus.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_awardedamount.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_awardnotificationdate.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_climatezone.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_landusetype.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_comments.yml
+  - '@path': /entityrelationships/cr07c_lcigrantprogram_no_relationships.txt
+  - '@path': /entityrelationships/cr07c_lcigrantapplication_no_relationships.txt
