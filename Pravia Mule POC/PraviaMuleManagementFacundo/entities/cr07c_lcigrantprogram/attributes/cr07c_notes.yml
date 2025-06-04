@@ -1,0 +1,5 @@
+DisplayName: Notes
+SchemaName: cr07c_notes
+DataType: Memo
+RequiredLevel: None
+MaxLength: 2000

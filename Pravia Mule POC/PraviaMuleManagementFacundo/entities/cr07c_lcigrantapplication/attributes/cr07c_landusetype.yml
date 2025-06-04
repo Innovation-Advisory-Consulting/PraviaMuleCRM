@@ -1,0 +1,9 @@
+DisplayName: Land Use Type
+SchemaName: cr07c_landusetype
+DataType: Picklist
+RequiredLevel: ApplicationRequired
+OptionSet:
+  - Urban
+  - Rural
+  - Forest
+  - Agriculture

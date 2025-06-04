@@ -1,0 +1,4 @@
+DisplayName: Awarded Amount
+SchemaName: cr07c_awardedamount
+DataType: Money
+RequiredLevel: ApplicationRequired

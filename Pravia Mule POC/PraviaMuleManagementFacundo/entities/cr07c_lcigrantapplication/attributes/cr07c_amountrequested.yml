@@ -1,0 +1,4 @@
+DisplayName: Amount Requested
+SchemaName: cr07c_amountrequested
+DataType: Money
+RequiredLevel: ApplicationRequired

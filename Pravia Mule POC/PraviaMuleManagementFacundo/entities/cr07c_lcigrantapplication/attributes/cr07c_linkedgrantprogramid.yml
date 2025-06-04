@@ -1,0 +1,6 @@
+DisplayName: Linked Grant Program
+SchemaName: cr07c_linkedgrantprogramid
+DataType: Lookup
+RequiredLevel: ApplicationRequired
+Targets:
+  - cr07c_lcigrantprogram
