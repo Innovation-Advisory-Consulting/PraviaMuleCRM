@@ -1,0 +1,48 @@
+attribute:
+  '@PhysicalName': cr07c_Status
+  Type: picklist
+  Name: cr07c_status
+  LogicalName: cr07c_status
+  RequiredLevel: required
+  DisplayMask: ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm
+  ImeMode: auto
+  ValidForUpdateApi: 1
+  ValidForReadApi: 1
+  ValidForCreateApi: 1
+  IsCustomField: 1
+  IsAuditEnabled: 1
+  IsSecured: 0
+  IntroducedVersion: 1.0
+  IsCustomizable: 1
+  IsRenameable: 1
+  CanModifySearchSettings: 1
+  CanModifyRequirementLevelSettings: 1
+  CanModifyAdditionalSettings: 1
+  SourceType: 0
+  IsGlobalFilterEnabled: 0
+  IsSortableEnabled: 0
+  CanModifyGlobalFilterSettings: 1
+  CanModifyIsSortableSettings: 1
+  IsDataSourceSecret: 0
+  IsSearchable: 1
+  IsFilterable: 0
+  IsRetrievable: 1
+  IsLocalizable: 0
+  OptionSet:
+    Option:
+      - '@value': 1
+        '@description': Open
+      - '@value': 2
+        '@description': Closed
+      - '@value': 3
+        '@description': Awarded
+      - '@value': 4
+        '@description': Cancelled
+  displaynames:
+    displayname:
+      '@description': Status
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': Status of the grant program
+      '@languagecode': 1033

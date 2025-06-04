@@ -18,6 +18,10 @@ AppModule:
       '@schemaName': cr07c_organization
     - '@type': 62
       '@schemaName': cr07c_ClientUserMa4d7eba6b
+    - '@type': 1
+      '@schemaName': cr07c_lcigrantprogram
+    - '@type': 1
+      '@schemaName': cr07c_lcigrantapplication
   AppModuleRoleMaps:
     Role:
     - '@id': '{627090ff-40a3-4053-8790-584edc5be201}'
