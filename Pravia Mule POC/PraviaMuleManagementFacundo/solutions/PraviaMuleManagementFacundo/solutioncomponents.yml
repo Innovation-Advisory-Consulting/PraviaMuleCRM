@@ -325,4 +325,7 @@ SolutionComponents:
   - '@path': /entityrelationships/user_cr07c_organization
   - '@path': /entityrelationships/user_cr07c_user2
   - '@path': /portablebusinesslogics/c511e1e6-5941-f011-b4cb-002248222778
+  - '@path': /portablebusinesslogics/b1e2c3d4-1111-2222-3333-444455556666
+  - '@path': /portablebusinesslogics/c2d3e4f5-2222-3333-4444-555566667777
+  - '@path': /portablebusinesslogics/d3e4f5a6-3333-4444-5555-666677778888
   - '@path': /publishers/Crfc198
