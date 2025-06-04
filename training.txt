@@ -49,3 +49,5 @@ If more tables are added later in the conversation, you must append them in the 
 ✅ Ensure schema is ready for deployment, part of the rootSolution, and will not cause metadata import failures.
 
 Be carefully when you make relationships, review the guid and logical name, and review tables that the user wants to make a relationships.
+
+Finally, add this changes into the folder solutions.
