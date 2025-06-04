@@ -1,0 +1,41 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{932a0b55-cab7-4d9a-9068-c3e8b850c046}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr07c_statusname
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr07c_casestatusid
+        cell:
+        - '@name': cr07c_statusname
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 1
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr07c_casestatus
+        attribute:
+        - '@name': cr07c_casestatusid
+        - '@name': cr07c_statusname
+        - '@name': createdon
+        order:
+          '@attribute': cr07c_statusname
+          '@descending': false
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Case Status Advanced Find View
+      '@languagecode': 1033

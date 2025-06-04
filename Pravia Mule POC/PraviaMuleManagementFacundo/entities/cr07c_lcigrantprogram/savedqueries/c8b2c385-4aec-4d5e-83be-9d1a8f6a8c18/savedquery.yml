@@ -1,0 +1,41 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{c8b2c385-4aec-4d5e-83be-9d1a8f6a8c18}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr07c_programname
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr07c_lcigrantprogramid
+        cell:
+        - '@name': cr07c_programname
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 1
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr07c_lcigrantprogram
+        attribute:
+        - '@name': cr07c_lcigrantprogramid
+        - '@name': cr07c_programname
+        - '@name': createdon
+        order:
+          '@attribute': cr07c_programname
+          '@descending': false
+  IntroducedVersion: 1.0.0.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': LCI Grant Program Advanced Find View
+      '@languagecode': 1033
