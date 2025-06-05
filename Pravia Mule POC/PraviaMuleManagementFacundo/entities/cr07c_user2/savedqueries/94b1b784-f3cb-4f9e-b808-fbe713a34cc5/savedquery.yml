@@ -1,0 +1,60 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{94b1b784-f3cb-4f9e-b808-fbe713a34cc5}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr07c_assignedrole
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr07c_user2id
+        cell:
+        - '@name': cr07c_assignedrole
+          '@width': 300
+        - '@name': cr07c_invitationdate
+          '@width': 150
+        - '@name': cr07c_registereddate
+          '@width': 150
+        - '@name': cr07c_deactivationdate
+          '@width': 150
+        - '@name': cr07c_linkedcontact
+          '@width': 150
+        - '@name': cr07c_linkedorg
+          '@width': 150
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr07c_user2
+        attribute:
+        - '@name': cr07c_user2id
+        - '@name': cr07c_assignedrole
+        - '@name': createdon
+        - '@name': cr07c_invitationdate
+        - '@name': cr07c_registereddate
+        - '@name': cr07c_deactivationdate
+        - '@name': cr07c_linkedcontact
+        - '@name': cr07c_linkedorg
+        order:
+          '@attribute': cr07c_assignedrole
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Active Users
+      '@languagecode': 1033

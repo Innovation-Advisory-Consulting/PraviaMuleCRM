@@ -1,0 +1,44 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{4d69dcae-7ecf-444d-ac42-142fd4176499}'
+  layoutxml:
+    grid:
+      '@name': cr07c_case2s
+      '@jump': cr07c_casetitle
+      '@select': 1
+      '@icon': 1
+      '@preview': 0
+      row:
+        '@name': cr07c_case2
+        '@id': cr07c_case2id
+        cell:
+        - '@name': cr07c_casetitle
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 64
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr07c_case2
+        attribute:
+        - '@name': cr07c_case2id
+        - '@name': cr07c_casetitle
+        - '@name': createdon
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Case Lookup View
+      '@languagecode': 1033

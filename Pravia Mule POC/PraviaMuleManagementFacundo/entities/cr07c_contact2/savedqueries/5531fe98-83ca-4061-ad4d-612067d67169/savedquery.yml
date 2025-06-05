@@ -1,0 +1,47 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 0
+  savedqueryid: '{5531fe98-83ca-4061-ad4d-612067d67169}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr07c_firstname
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr07c_contact2id
+        cell:
+        - '@name': cr07c_firstname
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr07c_contact2
+        attribute:
+        - '@name': cr07c_contact2id
+        - '@name': cr07c_firstname
+        - '@name': createdon
+        order:
+          '@attribute': cr07c_firstname
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 1
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Inactive Contacts
+      '@languagecode': 1033
