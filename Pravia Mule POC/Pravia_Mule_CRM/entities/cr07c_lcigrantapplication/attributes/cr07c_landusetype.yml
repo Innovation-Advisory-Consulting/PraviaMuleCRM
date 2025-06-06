@@ -1,0 +1,72 @@
+attribute:
+  '@PhysicalName': cr07c_LandUseType
+  Type: picklist
+  Name: cr07c_landusetype
+  LogicalName: cr07c_landusetype
+  RequiredLevel: none
+  DisplayMask: ValidForAdvancedFind|ValidForForm|ValidForGrid
+  ImeMode: auto
+  ValidForUpdateApi: 1
+  ValidForReadApi: 1
+  ValidForCreateApi: 1
+  IsCustomField: 1
+  IsAuditEnabled: 1
+  IsSecured: 0
+  IntroducedVersion: 1.0
+  IsCustomizable: 1
+  IsRenameable: 1
+  CanModifySearchSettings: 1
+  CanModifyRequirementLevelSettings: 1
+  CanModifyAdditionalSettings: 1
+  SourceType: 0
+  IsGlobalFilterEnabled: 0
+  IsSortableEnabled: 0
+  CanModifyGlobalFilterSettings: 1
+  CanModifyIsSortableSettings: 1
+  IsDataSourceSecret: 0
+  AutoNumberFormat: ''
+  IsSearchable: 0
+  IsFilterable: 1
+  IsRetrievable: 1
+  IsLocalizable: 0
+  optionset:
+    '@Name': cr07c_landusetype
+    '@IsGlobal': 0
+    displaynames:
+      displayname:
+        '@description': Land Use Type
+        '@languagecode': 1033
+    Descriptions:
+      Description:
+        '@description': Type of land use for the grant application
+        '@languagecode': 1033
+    options:
+      option:
+      - '@value': 100000000
+        labels:
+          label:
+            '@description': Urban
+            '@languagecode': 1033
+      - '@value': 100000001
+        labels:
+          label:
+            '@description': Rural
+            '@languagecode': 1033
+      - '@value': 100000002
+        labels:
+          label:
+            '@description': Forest
+            '@languagecode': 1033
+      - '@value': 100000003
+        labels:
+          label:
+            '@description': Agriculture
+            '@languagecode': 1033
+  displaynames:
+    displayname:
+      '@description': Land Use Type
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': Type of land use for the grant application (Urban, Rural, Forest, Agriculture)
+      '@languagecode': 1033

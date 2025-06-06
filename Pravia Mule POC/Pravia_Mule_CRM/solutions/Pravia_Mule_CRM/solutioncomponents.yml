@@ -145,6 +145,31 @@ SolutionComponents:
   - '@path': /entities/prv_user1/savedqueries/568acecd-635c-48f9-b049-62bbf982f39b
   - '@path': /entities/prv_user1/savedqueries/6fd5f5d3-742e-4132-98af-a926281c854b
   - '@path': /entities/prv_user1/savedqueries/fac905d9-6b4b-498b-b7d4-dd2860104498
+  - '@path': /entities/cr07c_lcigrantprogram
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_lcigrantprogramid.yml
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_programname.yml
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_programid.yml
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_purpose.yml
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_granttype.yml
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_totalfunding.yml
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_applicationdeadline.yml
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_status.yml
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_fundinground.yml
+  - '@path': /entities/cr07c_lcigrantprogram/attributes/cr07c_notes.yml
+  - '@path': /entities/cr07c_lcigrantapplication
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_lcigrantapplicationid.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_applicationid.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_organization.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_contact.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_grantprogramname.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_amountrequested.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_submitteddate.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_applicationstatus.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_awardedamount.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_awardnotificationdate.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_climatezone.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_landusetype.yml
+  - '@path': /entities/cr07c_lcigrantapplication/attributes/cr07c_comments.yml
   - '@path': /entityrelationships/business_unit_prv_contact1
   - '@path': /entityrelationships/business_unit_prv_customer1
   - '@path': /entityrelationships/business_unit_prv_user1
@@ -166,5 +191,8 @@ SolutionComponents:
   - '@path': /entityrelationships/user_prv_contact1
   - '@path': /entityrelationships/user_prv_customer1
   - '@path': /entityrelationships/user_prv_user1
+  - '@path': /entityrelationships/prv_customer1_cr07c_organization_cr07c_lcigrantapplication
+  - '@path': /entityrelationships/prv_contact1_cr07c_contact_cr07c_lcigrantapplication
+  - '@path': /entityrelationships/cr07c_lcigrantprogram_cr07c_grantprogramname_cr07c_lcigrantapplication
   - '@path': /modernflows/84e1c7a5-3d42-f011-b4cb-002248222778
   - '@path': /publishers/Pravia_Mule
