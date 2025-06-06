@@ -1,0 +1,31 @@
+EntityRelationship:
+  '@Name': owner_cr07c_lcigrantprogram
+  EntityRelationshipType: OneToMany
+  IsCustomizable: 1
+  IntroducedVersion: 1.0.0.0
+  IsHierarchical: 0
+  ReferencingEntityName: cr07c_Lcigrantprogram
+  ReferencedEntityName: owner
+  CascadeAssign: Cascade
+  CascadeDelete: Restrict
+  CascadeArchive: NoCascade
+  CascadeReparent: Cascade
+  CascadeShare: Cascade
+  CascadeUnshare: Cascade
+  CascadeRollupView: NoCascade
+  IsValidForAdvancedFind: 1
+  ReferencingAttributeName: ownerid
+  RelationshipDescription:
+    Descriptions:
+      Description:
+        '@description': 'Owner of the LCI Grant Program record'
+        '@languagecode': 1033
+  EntityRelationshipRoles:
+    EntityRelationshipRole:
+    - NavPaneDisplayOption: UseCollectionName
+      NavPaneArea: Details
+      NavPaneOrder: 10000
+      NavigationPropertyName: ownerid
+      RelationshipRoleType: 1
+    - NavigationPropertyName: owner_cr07c_lcigrantprogram
+      RelationshipRoleType: 0
