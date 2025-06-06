@@ -29,7 +29,8 @@ attribute:
   IsFilterable: 1
   IsRetrievable: 1
   IsLocalizable: 0
-  Format: dateonly
+  Format: date
+  Behavior: 3
   displaynames:
     displayname:
       '@description': Submitted Date
