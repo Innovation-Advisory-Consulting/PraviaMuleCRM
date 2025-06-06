@@ -1,0 +1,43 @@
+attribute:
+  '@PhysicalName': cr07c_AwardedAmount
+  Type: money
+  Name: cr07c_awardedamount
+  LogicalName: cr07c_awardedamount
+  RequiredLevel: none
+  DisplayMask: ValidForAdvancedFind|ValidForForm|ValidForGrid
+  ImeMode: auto
+  ValidForUpdateApi: 1
+  ValidForReadApi: 1
+  ValidForCreateApi: 1
+  IsCustomField: 1
+  IsAuditEnabled: 1
+  IsSecured: 0
+  IntroducedVersion: 1.0.0.0
+  IsCustomizable: 1
+  IsRenameable: 1
+  CanModifySearchSettings: 1
+  CanModifyRequirementLevelSettings: 1
+  CanModifyAdditionalSettings: 1
+  SourceType: 0
+  IsGlobalFilterEnabled: 0
+  IsSortableEnabled: 0
+  CanModifyGlobalFilterSettings: 1
+  CanModifyIsSortableSettings: 1
+  IsDataSourceSecret: 0
+  AutoNumberFormat: ''
+  IsSearchable: 0
+  IsFilterable: 0
+  IsRetrievable: 0
+  IsLocalizable: 0
+  MaxValue: 1000000000
+  MinValue: 0
+  Precision: 2
+  PrecisionSource: 2
+  displaynames:
+    displayname:
+      '@description': Awarded Amount
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': 'Amount of funding awarded to the applicant for this grant application'
+      '@languagecode': 1033

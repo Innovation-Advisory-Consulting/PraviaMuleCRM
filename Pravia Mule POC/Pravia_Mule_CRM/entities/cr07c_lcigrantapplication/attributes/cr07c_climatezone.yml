@@ -1,0 +1,40 @@
+---
+$schema: https://developer.microsoft.com/json-schemas/cds/2019-04/manifest
+guid: '{F1E2D3C4-B5A6-9870-FEDC-BA0987654321}'
+type: picklist
+logicalname: cr07c_climatezone
+displayname: Climate Zone
+description: Climate zone classification of the project location
+displaynames:
+  1033: Climate Zone
+descriptions:
+  1033: Climate zone classification of the project location
+optionset:
+  isGlobal: false
+  options:
+    100000000:
+      label: Zone 1 - High Desert
+      descriptions:
+        1033: High desert climate zone
+      color: '#DEB887'
+    100000001:
+      label: Zone 2 - Central Valley
+      descriptions:
+        1033: Central valley climate zone
+      color: '#F0E68C'
+    100000002:
+      label: Zone 3 - Coastal
+      descriptions:
+        1033: Coastal climate zone
+      color: '#87CEEB'
+    100000003:
+      label: Zone 4 - Mountain
+      descriptions:
+        1033: Mountain climate zone
+      color: '#8FBC8F'
+    100000004:
+      label: Zone 5 - Southern Interior
+      descriptions:
+        1033: Southern interior climate zone
+      color: '#F4A460'
+requirementlevel: None
