@@ -44,3 +44,12 @@ MissingDependencies:
       '@displayName': Preferred Method of Contact
       '@parentSchemaName': prv_contact1
       '@parentDisplayName': Contact
+  - Required:
+      '@type': connectionreference
+      '@displayName': iac_sharedoffice365_fe905
+      '@solution': Active
+      '@id.connectionreferencelogicalname': iac_sharedoffice365_fe905
+    Dependent:
+      '@type': 29
+      '@displayName': Primary Contact
+      '@id': '{84e1c7a5-3d42-f011-b4cb-002248222778}'
