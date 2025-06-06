@@ -9,12 +9,6 @@ RootComponents:
   - '@type': 1
     '@schemaName': prv_user1
     '@behavior': 0
-  - '@type': 1
-    '@schemaName': cr07c_lcigrantprogram
-    '@behavior': 0
-  - '@type': 1
-    '@schemaName': cr07c_lcigrantapplication
-    '@behavior': 0
   - '@type': 29
     '@id': '{84e1c7a5-3d42-f011-b4cb-002248222778}'
     '@behavior': 0
