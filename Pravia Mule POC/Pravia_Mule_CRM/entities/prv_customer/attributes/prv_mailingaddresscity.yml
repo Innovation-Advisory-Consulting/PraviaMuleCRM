@@ -1,0 +1,35 @@
+attribute:
+  '@PhysicalName': prv_MailingAddressCity
+  Type: nvarchar
+  Name: prv_mailingaddresscity
+  LogicalName: prv_mailingaddresscity
+  RequiredLevel: required
+  DisplayMask: ValidForAdvancedFind|ValidForForm|ValidForGrid
+  ImeMode: auto
+  ValidForUpdateApi: 1
+  ValidForReadApi: 1
+  ValidForCreateApi: 1
+  IsCustomField: 1
+  IsAuditEnabled: 1
+  IsSecured: 0
+  IntroducedVersion: 1.0
+  SourceType: 0
+  IsGlobalFilterEnabled: 0
+  IsSortableEnabled: 0
+  IsDataSourceSecret: 0
+  AutoNumberFormat: ''
+  IsSearchable: 0
+  IsFilterable: 0
+  IsRetrievable: 0
+  IsLocalizable: 0
+  Format: text
+  MaxLength: 100
+  Length: 200
+  displaynames:
+    displayname:
+      '@description': Mailing Address City
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': ''
+      '@languagecode': 1033

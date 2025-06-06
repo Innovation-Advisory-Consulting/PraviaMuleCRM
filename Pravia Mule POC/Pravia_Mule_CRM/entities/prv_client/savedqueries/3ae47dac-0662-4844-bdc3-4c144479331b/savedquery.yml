@@ -1,0 +1,39 @@
+savedquery:
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{3ae47dac-0662-4844-bdc3-4c144479331b}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': prv_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': prv_clientid
+        cell:
+        - '@name': prv_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 1
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': prv_client
+        attribute:
+        - '@name': prv_clientid
+        - '@name': prv_name
+        - '@name': createdon
+        order:
+          '@attribute': prv_name
+          '@descending': false
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Client Advanced Find View
+      '@languagecode': 1033

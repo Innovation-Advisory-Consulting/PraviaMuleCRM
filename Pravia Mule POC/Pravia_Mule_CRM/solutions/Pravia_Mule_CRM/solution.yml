@@ -11,7 +11,7 @@ ImportExportXml:
         '@description': Pravia_Mule_CRM
         '@languagecode': 1033
     Descriptions: 
-    Version: 1.0.0.5
+    Version: 1.0.0.6
     Managed: 0
     Publisher:
       UniqueName: Pravia_Mule

@@ -1,0 +1,8 @@
+connectionreference:
+  '@connectionreferencelogicalname': iac_sharedoffice365_fe905
+  connectionreferencedisplayname: Office 365 Outlook FaroCRM-fe905
+  connectorid: /providers/Microsoft.PowerApps/apis/shared_office365
+  iscustomizable: 1
+  promptingbehavior: 0
+  statecode: 0
+  statuscode: 1

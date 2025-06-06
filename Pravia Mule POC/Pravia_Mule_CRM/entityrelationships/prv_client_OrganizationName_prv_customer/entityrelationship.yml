@@ -1,0 +1,29 @@
+EntityRelationship:
+  '@Name': prv_client_OrganizationName_prv_customer
+  EntityRelationshipType: OneToMany
+  IntroducedVersion: 1.0.0.0
+  IsHierarchical: 0
+  ReferencingEntityName: prv_Client
+  ReferencedEntityName: prv_Customer
+  CascadeAssign: NoCascade
+  CascadeDelete: RemoveLink
+  CascadeArchive: RemoveLink
+  CascadeReparent: NoCascade
+  CascadeShare: NoCascade
+  CascadeUnshare: NoCascade
+  CascadeRollupView: NoCascade
+  IsValidForAdvancedFind: 1
+  ReferencingAttributeName: prv_OrganizationName
+  RelationshipDescription:
+    Descriptions:
+      Description:
+        '@description': ''
+        '@languagecode': 1033
+  EntityRelationshipRoles:
+    EntityRelationshipRole:
+    - NavPaneDisplayOption: UseCollectionName
+      NavPaneArea: Details
+      NavPaneOrder: 10000
+      NavigationPropertyName: prv_OrganizationName
+      RelationshipRoleType: 1
+    - RelationshipRoleType: 0

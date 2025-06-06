@@ -1,0 +1,9 @@
+Entity:
+  Name:
+    '@LocalizedName': Customer
+    '@OriginalName': Customer
+    '#text': prv_Customer
+  EntityInfo:
+    entity:
+      '@Name': prv_Customer
+      '@unmodified': 1

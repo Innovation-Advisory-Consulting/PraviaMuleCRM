@@ -1,0 +1,34 @@
+attribute:
+  '@PhysicalName': OverriddenCreatedOn
+  Type: datetime
+  Name: overriddencreatedon
+  LogicalName: overriddencreatedon
+  RequiredLevel: none
+  DisplayMask: ValidForAdvancedFind|ValidForGrid
+  ImeMode: inactive
+  ValidForUpdateApi: 0
+  ValidForReadApi: 1
+  ValidForCreateApi: 1
+  IsCustomField: 0
+  IsAuditEnabled: 1
+  IsSecured: 0
+  IntroducedVersion: 1.0.0.0
+  SourceType: 0
+  IsGlobalFilterEnabled: 0
+  IsSortableEnabled: 0
+  IsDataSourceSecret: 0
+  AutoNumberFormat: ''
+  IsSearchable: 0
+  IsFilterable: 0
+  IsRetrievable: 0
+  IsLocalizable: 0
+  Format: date
+  Behavior: 1
+  displaynames:
+    displayname:
+      '@description': Record Created On
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': Date and time that the record was migrated.
+      '@languagecode': 1033

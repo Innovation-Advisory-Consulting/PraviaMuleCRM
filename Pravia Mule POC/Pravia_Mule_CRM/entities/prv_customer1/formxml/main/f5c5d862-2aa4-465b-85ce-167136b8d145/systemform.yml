@@ -521,6 +521,19 @@ systemform:
               label:
                 '@description': ''
                 '@languagecode': 1033
+          - '@id': '{ff3e1f68-a455-4c74-8de6-bffe5acb38c6}'
+            '@locklevel': 0
+            '@colspan': 1
+            '@rowspan': 1
+            labels:
+              label:
+                '@description': Status
+                '@languagecode': 1033
+            control:
+              '@id': header_prv_status
+              '@classid': '{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}'
+              '@datafieldname': prv_status
+              '@disabled': false
     footer:
       '@id': '{9a2bdef2-651c-463b-8af7-42b24af18343}'
       '@celllabelposition': Top
