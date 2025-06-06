@@ -1,0 +1,17 @@
+ImportExportXml:
+  '@version': 9.2.25044.206
+  '@SolutionPackageVersion': 9.2
+  '@languagecode': 1033
+  '@generatedBy': CrmLive
+  '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  SolutionManifest:
+    UniqueName: Pravia_Mule_CRM
+    LocalizedNames:
+      LocalizedName:
+        '@description': Pravia_Mule_CRM
+        '@languagecode': 1033
+    Descriptions: 
+    Version: 1.0.0.5
+    Managed: 0
+    Publisher:
+      UniqueName: Pravia_Mule

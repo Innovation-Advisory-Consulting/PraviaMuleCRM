@@ -1,0 +1,44 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{14f2f952-e56f-4e28-a290-4669dfd3a050}'
+  layoutxml:
+    grid:
+      '@name': prv_user1s
+      '@jump': prv_username
+      '@select': 1
+      '@icon': 1
+      '@preview': 0
+      row:
+        '@name': prv_user1
+        '@id': prv_user1id
+        cell:
+        - '@name': prv_username
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 64
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': prv_user1
+        attribute:
+        - '@name': prv_user1id
+        - '@name': prv_username
+        - '@name': createdon
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': User Lookup View
+      '@languagecode': 1033
