@@ -1,0 +1,45 @@
+savedquery:
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 0
+  savedqueryid: '{bf181291-e695-4a99-bbc4-9f192acd3a25}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': prv_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': prv_clientid
+        cell:
+        - '@name': prv_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': prv_client
+        attribute:
+        - '@name': prv_clientid
+        - '@name': prv_name
+        - '@name': createdon
+        order:
+          '@attribute': prv_name
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 1
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Inactive Clients
+      '@languagecode': 1033

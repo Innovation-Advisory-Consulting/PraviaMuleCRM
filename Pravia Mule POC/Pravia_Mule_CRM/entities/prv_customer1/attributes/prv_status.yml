@@ -51,7 +51,7 @@ attribute:
         '@IsHidden': 0
         labels:
           label:
-            '@description': Active
+            '@description': Approved
             '@languagecode': 1033
         Descriptions:
           Description:
@@ -62,7 +62,7 @@ attribute:
         '@IsHidden': 0
         labels:
           label:
-            '@description': Inactive
+            '@description': Denied
             '@languagecode': 1033
         Descriptions:
           Description:

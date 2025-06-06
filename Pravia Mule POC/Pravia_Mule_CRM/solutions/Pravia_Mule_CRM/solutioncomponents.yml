@@ -3,6 +3,49 @@ SolutionComponents:
   - '@path': /appmodules/prv_PraviaMuleCRM
   - '@path': /appmodulesitemaps/prv_PraviaMuleCRM
   - '@path': /connectionreferences/iac_sharedcommondataserviceforapps_bf5a0
+  - '@path': /connectionreferences/iac_sharedoffice365_fe905
+  - '@path': /entities/prv_client
+  - '@path': /entities/prv_client/attributes/createdby.yml
+  - '@path': /entities/prv_client/attributes/createdon.yml
+  - '@path': /entities/prv_client/attributes/createdonbehalfby.yml
+  - '@path': /entities/prv_client/attributes/importsequencenumber.yml
+  - '@path': /entities/prv_client/attributes/modifiedby.yml
+  - '@path': /entities/prv_client/attributes/modifiedon.yml
+  - '@path': /entities/prv_client/attributes/modifiedonbehalfby.yml
+  - '@path': /entities/prv_client/attributes/overriddencreatedon.yml
+  - '@path': /entities/prv_client/attributes/ownerid.yml
+  - '@path': /entities/prv_client/attributes/owningbusinessunit.yml
+  - '@path': /entities/prv_client/attributes/owningteam.yml
+  - '@path': /entities/prv_client/attributes/owninguser.yml
+  - '@path': /entities/prv_client/attributes/prv_businessphone.yml
+  - '@path': /entities/prv_client/attributes/prv_cellphone.yml
+  - '@path': /entities/prv_client/attributes/prv_clientid.yml
+  - '@path': /entities/prv_client/attributes/prv_dlissuingstate.yml
+  - '@path': /entities/prv_client/attributes/prv_driverlicenseno.yml
+  - '@path': /entities/prv_client/attributes/prv_email.yml
+  - '@path': /entities/prv_client/attributes/prv_firstname.yml
+  - '@path': /entities/prv_client/attributes/prv_lastname.yml
+  - '@path': /entities/prv_client/attributes/prv_name.yml
+  - '@path': /entities/prv_client/attributes/prv_notes.yml
+  - '@path': /entities/prv_client/attributes/prv_organizationname.yml
+  - '@path': /entities/prv_client/attributes/prv_preferredmethodofcontact.yml
+  - '@path': /entities/prv_client/attributes/prv_role.yml
+  - '@path': /entities/prv_client/attributes/prv_ssn.yml
+  - '@path': /entities/prv_client/attributes/prv_title.yml
+  - '@path': /entities/prv_client/attributes/prv_uid1.yml
+  - '@path': /entities/prv_client/attributes/prv_uid2.yml
+  - '@path': /entities/prv_client/attributes/statecode.yml
+  - '@path': /entities/prv_client/attributes/statuscode.yml
+  - '@path': /entities/prv_client/attributes/timezoneruleversionnumber.yml
+  - '@path': /entities/prv_client/attributes/utcconversiontimezonecode.yml
+  - '@path': /entities/prv_client/ribbondiffs
+  - '@path': /entities/prv_client/savedqueries/2cb2e9de-ae30-4e2e-9991-5b084ce97947
+  - '@path': /entities/prv_client/savedqueries/3ae47dac-0662-4844-bdc3-4c144479331b
+  - '@path': /entities/prv_client/savedqueries/56baac2e-a340-f011-b4cd-7c1e5247c8e6
+  - '@path': /entities/prv_client/savedqueries/9f0e56f1-9945-44ec-b6cb-85b96c53301f
+  - '@path': /entities/prv_client/savedqueries/bf181291-e695-4a99-bbc4-9f192acd3a25
+  - '@path': /entities/prv_client/savedqueries/dc9d4658-877b-4ca6-a17f-7e407bfc888e
+  - '@path': /entities/prv_client/savedqueries/e46cb108-2a33-46ee-9b85-a78feb3d757a
   - '@path': /entities/prv_contact1
   - '@path': /entities/prv_contact1/attributes/createdby.yml
   - '@path': /entities/prv_contact1/attributes/createdon.yml
@@ -48,6 +91,60 @@ SolutionComponents:
   - '@path': /entities/prv_contact1/savedqueries/931ea805-5f70-4263-b33e-06415f9c3bdb
   - '@path': /entities/prv_contact1/savedqueries/a72dfd74-1586-4ec4-b803-dba16668db2d
   - '@path': /entities/prv_contact1/savedqueries/c5d3b317-08f5-4121-9876-7f7a1b3d4087
+  - '@path': /entities/prv_customer
+  - '@path': /entities/prv_customer/attributes/createdby.yml
+  - '@path': /entities/prv_customer/attributes/createdon.yml
+  - '@path': /entities/prv_customer/attributes/createdonbehalfby.yml
+  - '@path': /entities/prv_customer/attributes/importsequencenumber.yml
+  - '@path': /entities/prv_customer/attributes/modifiedby.yml
+  - '@path': /entities/prv_customer/attributes/modifiedon.yml
+  - '@path': /entities/prv_customer/attributes/modifiedonbehalfby.yml
+  - '@path': /entities/prv_customer/attributes/overriddencreatedon.yml
+  - '@path': /entities/prv_customer/attributes/ownerid.yml
+  - '@path': /entities/prv_customer/attributes/owningbusinessunit.yml
+  - '@path': /entities/prv_customer/attributes/owningteam.yml
+  - '@path': /entities/prv_customer/attributes/owninguser.yml
+  - '@path': /entities/prv_customer/attributes/prv_customerid.yml
+  - '@path': /entities/prv_customer/attributes/prv_customertype.yml
+  - '@path': /entities/prv_customer/attributes/prv_datesubmitted.yml
+  - '@path': /entities/prv_customer/attributes/prv_dispositiondate.yml
+  - '@path': /entities/prv_customer/attributes/prv_id.yml
+  - '@path': /entities/prv_customer/attributes/prv_mailingaddresscity.yml
+  - '@path': /entities/prv_customer/attributes/prv_mailingaddresscounty.yml
+  - '@path': /entities/prv_customer/attributes/prv_mailingaddresslatitude.yml
+  - '@path': /entities/prv_customer/attributes/prv_mailingaddressline1.yml
+  - '@path': /entities/prv_customer/attributes/prv_mailingaddressline2.yml
+  - '@path': /entities/prv_customer/attributes/prv_mailingaddresslongitude.yml
+  - '@path': /entities/prv_customer/attributes/prv_mailingaddressstate.yml
+  - '@path': /entities/prv_customer/attributes/prv_mailingaddresszipcode.yml
+  - '@path': /entities/prv_customer/attributes/prv_name.yml
+  - '@path': /entities/prv_customer/attributes/prv_parentorganization.yml
+  - '@path': /entities/prv_customer/attributes/prv_primaryaddresscity.yml
+  - '@path': /entities/prv_customer/attributes/prv_primaryaddresscounty.yml
+  - '@path': /entities/prv_customer/attributes/prv_primaryaddresslatitude.yml
+  - '@path': /entities/prv_customer/attributes/prv_primaryaddressline1.yml
+  - '@path': /entities/prv_customer/attributes/prv_primaryaddressline2.yml
+  - '@path': /entities/prv_customer/attributes/prv_primaryaddresslongitude.yml
+  - '@path': /entities/prv_customer/attributes/prv_primaryaddressstate.yml
+  - '@path': /entities/prv_customer/attributes/prv_primaryaddresszipcode.yml
+  - '@path': /entities/prv_customer/attributes/prv_primarycontactid.yml
+  - '@path': /entities/prv_customer/attributes/prv_primaryphone.yml
+  - '@path': /entities/prv_customer/attributes/prv_standardindustrialclassificationcodesic.yml
+  - '@path': /entities/prv_customer/attributes/prv_uid1.yml
+  - '@path': /entities/prv_customer/attributes/prv_uid2.yml
+  - '@path': /entities/prv_customer/attributes/prv_website.yml
+  - '@path': /entities/prv_customer/attributes/statecode.yml
+  - '@path': /entities/prv_customer/attributes/statuscode.yml
+  - '@path': /entities/prv_customer/attributes/timezoneruleversionnumber.yml
+  - '@path': /entities/prv_customer/attributes/utcconversiontimezonecode.yml
+  - '@path': /entities/prv_customer/ribbondiffs
+  - '@path': /entities/prv_customer/savedqueries/267548e4-a140-f011-b4cd-7c1e52fdc062
+  - '@path': /entities/prv_customer/savedqueries/44ffdb1f-8316-4d91-b33c-f5414a5498d2
+  - '@path': /entities/prv_customer/savedqueries/4f4e0001-2c93-4266-8bee-4ef2b4059e39
+  - '@path': /entities/prv_customer/savedqueries/67a4b184-a60f-4d55-a8e2-410006ff147d
+  - '@path': /entities/prv_customer/savedqueries/88802fcd-2979-46de-8740-7adcf3741a9f
+  - '@path': /entities/prv_customer/savedqueries/dad5996a-c87e-4dfa-a800-b43991a1dbec
+  - '@path': /entities/prv_customer/savedqueries/fcbc0d23-a322-4c3a-93f3-5f5fef0520de
   - '@path': /entities/prv_customer1
   - '@path': /entities/prv_customer1/attributes/createdby.yml
   - '@path': /entities/prv_customer1/attributes/createdon.yml
@@ -145,26 +242,40 @@ SolutionComponents:
   - '@path': /entities/prv_user1/savedqueries/568acecd-635c-48f9-b049-62bbf982f39b
   - '@path': /entities/prv_user1/savedqueries/6fd5f5d3-742e-4132-98af-a926281c854b
   - '@path': /entities/prv_user1/savedqueries/fac905d9-6b4b-498b-b7d4-dd2860104498
+  - '@path': /entityrelationships/business_unit_prv_client
   - '@path': /entityrelationships/business_unit_prv_contact1
+  - '@path': /entityrelationships/business_unit_prv_customer
   - '@path': /entityrelationships/business_unit_prv_customer1
   - '@path': /entityrelationships/business_unit_prv_user1
+  - '@path': /entityrelationships/lk_prv_client_createdby
+  - '@path': /entityrelationships/lk_prv_client_modifiedby
   - '@path': /entityrelationships/lk_prv_contact1_createdby
   - '@path': /entityrelationships/lk_prv_contact1_modifiedby
   - '@path': /entityrelationships/lk_prv_customer1_createdby
   - '@path': /entityrelationships/lk_prv_customer1_modifiedby
+  - '@path': /entityrelationships/lk_prv_customer_createdby
+  - '@path': /entityrelationships/lk_prv_customer_modifiedby
   - '@path': /entityrelationships/lk_prv_user1_createdby
   - '@path': /entityrelationships/lk_prv_user1_modifiedby
+  - '@path': /entityrelationships/owner_prv_client
   - '@path': /entityrelationships/owner_prv_contact1
+  - '@path': /entityrelationships/owner_prv_customer
   - '@path': /entityrelationships/owner_prv_customer1
   - '@path': /entityrelationships/owner_prv_user1
+  - '@path': /entityrelationships/prv_client_OrganizationName_prv_customer
   - '@path': /entityrelationships/prv_contact1_prv_organization_prv_customer1
   - '@path': /entityrelationships/prv_customer1_prv_parentorganization_prv_customer
   - '@path': /entityrelationships/prv_user1_prv_contact_prv_contact1
+  - '@path': /entityrelationships/team_prv_client
   - '@path': /entityrelationships/team_prv_contact1
+  - '@path': /entityrelationships/team_prv_customer
   - '@path': /entityrelationships/team_prv_customer1
   - '@path': /entityrelationships/team_prv_user1
+  - '@path': /entityrelationships/user_prv_client
   - '@path': /entityrelationships/user_prv_contact1
+  - '@path': /entityrelationships/user_prv_customer
   - '@path': /entityrelationships/user_prv_customer1
   - '@path': /entityrelationships/user_prv_user1
   - '@path': /modernflows/84e1c7a5-3d42-f011-b4cb-002248222778
+  - '@path': /modernflows/862774ec-fc42-f011-b4cb-002248222778
   - '@path': /publishers/Pravia_Mule

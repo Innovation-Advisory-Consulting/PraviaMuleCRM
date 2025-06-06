@@ -1,6 +1,222 @@
 MissingDependencies:
   MissingDependency:
   - Required:
+      '@type': 1
+      '@schemaName': prv_client
+      '@displayName': Client
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 1
+      '@schemaName': prv_client
+      '@displayName': Client
+  - Required:
+      '@type': 1
+      '@schemaName': prv_client
+      '@displayName': Client
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': createdby
+      '@displayName': Created By
+      '@parentSchemaName': prv_client
+      '@parentDisplayName': Client
+  - Required:
+      '@type': 1
+      '@schemaName': prv_client
+      '@displayName': Client
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': createdonbehalfby
+      '@displayName': Created By (Delegate)
+      '@parentSchemaName': prv_client
+      '@parentDisplayName': Client
+  - Required:
+      '@type': 1
+      '@schemaName': prv_client
+      '@displayName': Client
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': modifiedby
+      '@displayName': Modified By
+      '@parentSchemaName': prv_client
+      '@parentDisplayName': Client
+  - Required:
+      '@type': 1
+      '@schemaName': prv_client
+      '@displayName': Client
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': modifiedonbehalfby
+      '@displayName': Modified By (Delegate)
+      '@parentSchemaName': prv_client
+      '@parentDisplayName': Client
+  - Required:
+      '@type': 1
+      '@schemaName': prv_client
+      '@displayName': Client
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': ownerid
+      '@displayName': Owner
+      '@parentSchemaName': prv_client
+      '@parentDisplayName': Client
+  - Required:
+      '@type': 1
+      '@schemaName': prv_client
+      '@displayName': Client
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': owningbusinessunit
+      '@displayName': Owning Business Unit
+      '@parentSchemaName': prv_client
+      '@parentDisplayName': Client
+  - Required:
+      '@type': 1
+      '@schemaName': prv_client
+      '@displayName': Client
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': owningteam
+      '@displayName': Owning Team
+      '@parentSchemaName': prv_client
+      '@parentDisplayName': Client
+  - Required:
+      '@type': 1
+      '@schemaName': prv_client
+      '@displayName': Client
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': owninguser
+      '@displayName': Owning User
+      '@parentSchemaName': prv_client
+      '@parentDisplayName': Client
+  - Required:
+      '@type': 1
+      '@schemaName': prv_client
+      '@displayName': Client
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': versionnumber
+      '@displayName': Version Number
+      '@parentSchemaName': prv_client
+      '@parentDisplayName': Client
+  - Required:
+      '@type': 1
+      '@schemaName': prv_customer
+      '@displayName': Customer
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 1
+      '@schemaName': prv_customer
+      '@displayName': Customer
+  - Required:
+      '@type': 1
+      '@schemaName': prv_customer
+      '@displayName': Customer
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': createdby
+      '@displayName': Created By
+      '@parentSchemaName': prv_customer
+      '@parentDisplayName': Customer
+  - Required:
+      '@type': 1
+      '@schemaName': prv_customer
+      '@displayName': Customer
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': createdonbehalfby
+      '@displayName': Created By (Delegate)
+      '@parentSchemaName': prv_customer
+      '@parentDisplayName': Customer
+  - Required:
+      '@type': 1
+      '@schemaName': prv_customer
+      '@displayName': Customer
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': modifiedby
+      '@displayName': Modified By
+      '@parentSchemaName': prv_customer
+      '@parentDisplayName': Customer
+  - Required:
+      '@type': 1
+      '@schemaName': prv_customer
+      '@displayName': Customer
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': modifiedonbehalfby
+      '@displayName': Modified By (Delegate)
+      '@parentSchemaName': prv_customer
+      '@parentDisplayName': Customer
+  - Required:
+      '@type': 1
+      '@schemaName': prv_customer
+      '@displayName': Customer
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': ownerid
+      '@displayName': Owner
+      '@parentSchemaName': prv_customer
+      '@parentDisplayName': Customer
+  - Required:
+      '@type': 1
+      '@schemaName': prv_customer
+      '@displayName': Customer
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': owningbusinessunit
+      '@displayName': Owning Business Unit
+      '@parentSchemaName': prv_customer
+      '@parentDisplayName': Customer
+  - Required:
+      '@type': 1
+      '@schemaName': prv_customer
+      '@displayName': Customer
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': owningteam
+      '@displayName': Owning Team
+      '@parentSchemaName': prv_customer
+      '@parentDisplayName': Customer
+  - Required:
+      '@type': 1
+      '@schemaName': prv_customer
+      '@displayName': Customer
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': owninguser
+      '@displayName': Owning User
+      '@parentSchemaName': prv_customer
+      '@parentDisplayName': Customer
+  - Required:
+      '@type': 1
+      '@schemaName': prv_customer
+      '@displayName': Customer
+      '@solution': PraviaMuleCRM (1.0.0.3)
+    Dependent:
+      '@type': 2
+      '@schemaName': versionnumber
+      '@displayName': Version Number
+      '@parentSchemaName': prv_customer
+      '@parentDisplayName': Customer
+  - Required:
       '@type': 2
       '@schemaName': prv_name
       '@displayName': Name
@@ -45,11 +261,16 @@ MissingDependencies:
       '@parentSchemaName': prv_contact1
       '@parentDisplayName': Contact
   - Required:
-      '@type': connectionreference
-      '@displayName': iac_sharedoffice365_fe905
-      '@solution': Active
-      '@id.connectionreferencelogicalname': iac_sharedoffice365_fe905
+      '@type': SettingDefinition
+      '@displayName': AppChannel
+      '@solution': msdyn_AppFrameworkInfraExtensions (1.0.0.14)
+      '@id.uniquename': AppChannel
+      package:
+        '@appName': PowerAppsAppFramework Package
+        '@version': 1.0.0.19
+        '#text': PowerAppsAppFramework_Anchor (1.0.0.19)
     Dependent:
-      '@type': 29
-      '@displayName': Primary Contact
-      '@id': '{84e1c7a5-3d42-f011-b4cb-002248222778}'
+      '@type': AppSetting
+      '@displayName': parentappmoduleid.uniquename=prv_PraviaMuleCRM,settingdefinitionid.uniquename=AppChannel
+      '@id.parentappmoduleid.uniquename': prv_PraviaMuleCRM
+      '@id.settingdefinitionid.uniquename': AppChannel

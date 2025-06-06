@@ -1,0 +1,42 @@
+savedquery:
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{4f4e0001-2c93-4266-8bee-4ef2b4059e39}'
+  layoutxml:
+    grid:
+      '@name': prv_customers
+      '@jump': prv_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 0
+      row:
+        '@name': prv_customer
+        '@id': prv_customerid
+        cell:
+        - '@name': prv_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 64
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': prv_customer
+        attribute:
+        - '@name': prv_customerid
+        - '@name': prv_name
+        - '@name': createdon
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Customer Lookup View
+      '@languagecode': 1033

@@ -18,6 +18,8 @@ savedquery:
         cell:
         - '@name': prv_contactname
           '@width': 300
+        - '@name': prv_organization
+          '@width': 113
         - '@name': createdon
           '@width': 125
   querytype: 2
@@ -25,21 +27,22 @@ savedquery:
     fetch:
       '@version': 1.0
       '@mapping': logical
+      '@distinct': true
       entity:
         '@name': prv_contact1
         attribute:
         - '@name': prv_contact1id
         - '@name': prv_contactname
         - '@name': createdon
+        - '@name': prv_organization
         order:
           '@attribute': prv_contactname
           '@descending': false
         filter:
           '@type': and
           condition:
-            '@attribute': statecode
-            '@operator': eq
-            '@value': 0
+            '@attribute': ownerid
+            '@operator': eq-userid
   IntroducedVersion: 1.0
   LocalizedNames:
     LocalizedName:

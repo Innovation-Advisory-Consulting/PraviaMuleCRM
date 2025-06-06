@@ -1,7 +1,13 @@
 RootComponents:
   RootComponent:
   - '@type': 1
+    '@schemaName': prv_client
+    '@behavior': 0
+  - '@type': 1
     '@schemaName': prv_contact1
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': prv_customer
     '@behavior': 0
   - '@type': 1
     '@schemaName': prv_customer1
@@ -11,6 +17,9 @@ RootComponents:
     '@behavior': 0
   - '@type': 29
     '@id': '{84e1c7a5-3d42-f011-b4cb-002248222778}'
+    '@behavior': 0
+  - '@type': 29
+    '@id': '{862774ec-fc42-f011-b4cb-002248222778}'
     '@behavior': 0
   - '@type': 62
     '@schemaName': prv_PraviaMuleCRM
