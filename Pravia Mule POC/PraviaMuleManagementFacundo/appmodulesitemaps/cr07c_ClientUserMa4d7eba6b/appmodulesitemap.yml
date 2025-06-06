@@ -1,0 +1,58 @@
+AppModuleSiteMap:
+  SiteMapUniqueName: cr07c_ClientUserMa4d7eba6b
+  EnableCollapsibleGroups: False
+  ShowHome: True
+  ShowPinned: True
+  ShowRecents: True
+  SiteMap:
+    '@IntroducedVersion': 7.0.0.0
+    Area:
+      '@Id': area_b40699c1
+      '@ResourceId': SitemapDesigner.NewTitle
+      '@DescriptionResourceId': SitemapDesigner.NewTitle
+      '@ShowGroups': true
+      '@IntroducedVersion': 7.0.0.0
+      Titles:
+        Title:
+          '@LCID': 1033
+          '@Title': Area1
+      Group:
+        '@Id': group_547d6980
+        '@ResourceId': SitemapDesigner.NewGroup
+        '@DescriptionResourceId': SitemapDesigner.NewGroup
+        '@IntroducedVersion': 7.0.0.0
+        '@IsProfile': false
+        '@ToolTipResourseId': SitemapDesigner.Unknown
+        Titles:
+          Title:
+            '@LCID': 1033
+            '@Title': Group1
+        SubArea:
+        - '@Id': subarea_5dd83f2e
+          '@VectorIcon': /_imgs/TableIconsFluentV9/person_accounts.svg
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr07c_organization
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_0b3dc078
+          '@VectorIcon': /_imgs/TableIconsFluentV9/person.svg
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr07c_contact2
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_a535895b
+          '@VectorIcon': /_imgs/TableIconsFluentV9/people.svg
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr07c_user2
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+  LocalizedNames:
+    LocalizedName:
+      '@description': Client User Management
+      '@languagecode': 1033
