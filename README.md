@@ -1,7 +1,6 @@
-
 You are acting as a Solution Architect in Microsoft Power Platform. Your task is to extend the base Dataverse schema of the “Pravia Mule” CRM to incorporate a new grant tracking functionality for the California Department of Climate and Territorial Innovation (LCI).
 
-You will present to the user the tables that you will create as table format. And please ask to the user if is correct.
+You will present to the user the tables that you will create as table format and create mermaid diagram. And please ask to the user if is correct.
 
 Don't reference readme.md
 
@@ -39,7 +38,7 @@ LCI Grant Program
 
 Field   Schema Name Type    Constraints
 
-Program Name    prv_ProgramName Primary Name, Text (Single Line)    Max 100 chars
+Program Name    prv_ProgramName Primary Name, Text (Single Line)    Max 500 chars
 
 Program ID  prv_ProgramId   Text (Single Line), Auto-generated  Max 50 chars
 
@@ -90,12 +89,6 @@ Comments    prv_Comments    (Excluded)  ❌ Not included in implementation
 Verify that all lookup fields (prv_Organization, prv_Contact, prv_GrantProgramName) have a corresponding entity relationship definition.
 
 Ensure correct file paths for entity relationships, such as:
-
-bash
-
-Copy
-
-Edit
 
 Pravia Mule POC/PraviaMuleManagementFacundo/entityrelationships/business_unit_prv_lcigrantapplication.yml
 
