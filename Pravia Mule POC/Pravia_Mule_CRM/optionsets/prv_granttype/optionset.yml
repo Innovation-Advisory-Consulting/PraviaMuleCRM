@@ -1,0 +1,51 @@
+optionset:
+  '@Name': prv_granttype
+  '@localizedName': Grant Type
+  OptionSetType: picklist
+  IsGlobal: 1
+  IntroducedVersion: 1.0.0.6
+  IsCustomizable: 1
+  ExternalTypeName: ''
+  displaynames:
+    displayname:
+      '@description': Grant Type
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': ''
+      '@languagecode': 1033
+  options:
+    option:
+    - '@value': 895080000
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Planning
+          '@languagecode': 1033
+      Descriptions:
+        Description:
+          '@description': ''
+          '@languagecode': 1033
+    - '@value': 895080001
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Implementation
+          '@languagecode': 1033
+      Descriptions:
+        Description:
+          '@description': ''
+          '@languagecode': 1033
+    - '@value': 895080002
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Heat Resilience
+          '@languagecode': 1033
+      Descriptions:
+        Description:
+          '@description': ''
+          '@languagecode': 1033

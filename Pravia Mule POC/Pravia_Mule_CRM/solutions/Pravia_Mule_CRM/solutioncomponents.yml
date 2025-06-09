@@ -170,4 +170,6 @@ SolutionComponents:
   - '@path': /entityrelationships/user_prv_user1
   - '@path': /modernflows/84e1c7a5-3d42-f011-b4cb-002248222778
   - '@path': /modernflows/862774ec-fc42-f011-b4cb-002248222778
+  - '@path': /optionsets/prv_granttype
+  - '@path': /optionsets/prv_landusetype
   - '@path': /publishers/Pravia_Mule
