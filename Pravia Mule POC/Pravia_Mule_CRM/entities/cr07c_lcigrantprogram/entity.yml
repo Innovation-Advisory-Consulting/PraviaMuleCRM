@@ -1,9 +1,0 @@
-Entity:
-  Name:
-    '@LocalizedName': LCI Grant Program
-    '@OriginalName': LCI Grant Program
-    '#text': cr07c_Lcigrantprogram
-  EntityInfo:
-    entity:
-      '@Name': cr07c_Lcigrantprogram
-      '@unmodified': 1
