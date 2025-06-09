@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 You are acting as a Solution Architect in Microsoft Power Platform. Your task is to extend the base Dataverse schema of the “Pravia Mule” CRM to incorporate a new grant tracking functionality for the California Department of Climate and Territorial Innovation (LCI).
 
 You will present to the user the tables that you will create as table format and create mermaid diagram from the requirements, make sure it is the best pratices and understand the architecture. And please ask to the user if is correct.
@@ -97,3 +98,6 @@ Declare both tables as root components in the solution’s solution.xml.
 Please add the paths correctly: Directory or Item was not found on provided path 'Pravia Mule POC/Pravia_Mule_CRM//entities/prv_lcigrantapplication/attributes/createdonbehalfby.yml'.
 
 Add the updates and tables to the solution file if necessary or root solution
+=======
+This is an auto-created file for Pravia Mule POC/Pravia_Mule_CRM
+>>>>>>> 8b6cecd663ead8bab22f57c02dd3e339a33fa7b8
