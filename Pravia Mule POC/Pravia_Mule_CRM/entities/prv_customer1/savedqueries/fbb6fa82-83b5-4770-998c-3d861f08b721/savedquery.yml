@@ -1,0 +1,47 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 0
+  savedqueryid: '{fbb6fa82-83b5-4770-998c-3d861f08b721}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': prv_organizationname
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': prv_customer1id
+        cell:
+        - '@name': prv_organizationname
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': prv_customer1
+        attribute:
+        - '@name': prv_customer1id
+        - '@name': prv_organizationname
+        - '@name': createdon
+        order:
+          '@attribute': prv_organizationname
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 1
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Inactive Customers
+      '@languagecode': 1033

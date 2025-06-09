@@ -1,0 +1,577 @@
+systemform:
+  formid: '{f5c5d862-2aa4-465b-85ce-167136b8d145}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    '@headerdensity': HighWithControls
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{dd6b8962-df5b-437d-8cac-dc21ba8f1c97}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{8c88e448-ffca-41af-99d9-407fc059bc99}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{4c7484ca-08b3-481b-871d-2d0c4d5bc4be}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': ID
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_id
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_id
+                        '@disabled': false
+                  - cell:
+                      '@id': '{ca94bc0c-0ac7-4f4a-b756-e3775ce2e7f0}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': First Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_firstname
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_firstname
+                        '@disabled': false
+                  - cell:
+                      '@id': '{255839ff-70cd-4562-9ed7-7c2cb292327d}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Last Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_lastname
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_lastname
+                        '@disabled': false
+                  - cell:
+                      '@id': '{9db270ac-9c2c-442e-ac58-517f89365eb6}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Email
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_email
+                        '@classid': '{ADA2203E-B4CD-49BE-9DDF-234642B43B52}'
+                        '@datafieldname': prv_email
+                        '@disabled': false
+                  - cell:
+                      '@id': '{ab9d48ed-c06b-464c-a839-a1eece9be66e}'
+                      labels:
+                        label:
+                          '@description': Organization Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_organizationname
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_organizationname
+                  - cell:
+                      '@id': '{9778cc82-ca78-4b32-ad26-d22670ef9cb9}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Customer Type
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_customertype
+                        '@classid': '{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}'
+                        '@datafieldname': prv_customertype
+                        '@disabled': false
+                  - cell:
+                      '@id': '{ce939325-b675-4450-8b31-1c22de584fe3}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Status Reason
+                          '@languagecode': 1033
+                      control:
+                        '@id': statuscode
+                        '@classid': '{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}'
+                        '@datafieldname': statuscode
+                        '@disabled': false
+                  - cell:
+                      '@id': '{3650388c-cb65-48b8-a0d3-fd45db9fbd61}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      '@visible': false
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': statecode
+                        '@classid': '{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}'
+                        '@datafieldname': statecode
+                        '@disabled': false
+                  - cell:
+                      '@id': '{48fd51f8-16ce-4ddc-9414-d39343ddf6df}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Primary Address Line 1
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_primaryaddressline1
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_primaryaddressline1
+                        '@disabled': false
+                  - cell:
+                      '@id': '{66310248-d824-4df0-8060-5274c0a8ce4e}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Primary Address Line 2
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_primaryaddressline2
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_primaryaddressline2
+                        '@disabled': false
+                  - cell:
+                      '@id': '{62b3a2be-a1c9-41de-b396-fb3ef7cbea49}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Primary Address City
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_primaryaddresscity
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_primaryaddresscity
+                        '@disabled': false
+                  - cell:
+                      '@id': '{80feed90-4887-4dec-9851-8a2a4a20dc15}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Primary Address State
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_primaryaddressstate
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_primaryaddressstate
+                        '@disabled': false
+                  - cell:
+                      '@id': '{0f213f56-0113-48e6-bb88-f8f5e8d5b5e2}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Primary Address Zip Code
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_primaryaddresszipcode
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_primaryaddresszipcode
+                        '@disabled': false
+                  - cell:
+                      '@id': '{79f57f7e-5f2b-4446-82d3-b6513afea8e1}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Primary Address County
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_primaryaddresscounty
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_primaryaddresscounty
+                        '@disabled': false
+                  - cell:
+                      '@id': '{2eddbb44-3aad-405f-afe0-a3bf67cfa697}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Primary Address Latitude
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_primaryaddresslatitude
+                        '@classid': '{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}'
+                        '@datafieldname': prv_primaryaddresslatitude
+                        '@disabled': false
+                  - cell:
+                      '@id': '{583731cf-e72f-4101-b763-0092337badbe}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Primary Address Longitude
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_primaryaddresslongitude
+                        '@classid': '{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}'
+                        '@datafieldname': prv_primaryaddresslongitude
+                        '@disabled': false
+                  - cell:
+                      '@id': '{f4ebd39f-a952-4270-bae9-bb186d240b8c}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Mailing Address Line 1
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_mailingaddressline1
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_mailingaddressline1
+                        '@disabled': false
+                  - cell:
+                      '@id': '{344fe2da-b8e8-4ce3-91fb-8f624aad4cb6}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Mailing Address Line 2
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_mailingaddressline2
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_mailingaddressline2
+                        '@disabled': false
+                  - cell:
+                      '@id': '{5d9bc6a5-feef-42d3-93ca-5bc9ed6bfc34}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Mailing Address City
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_mailingaddresscity
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_mailingaddresscity
+                        '@disabled': false
+                  - cell:
+                      '@id': '{5b698dea-d7c1-4e58-9d0c-95f74d72d29c}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Mailing Address State
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_mailingaddressstate
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_mailingaddressstate
+                        '@disabled': false
+                  - cell:
+                      '@id': '{1f9a95ce-7b9a-40da-b74b-ebf6462b74d2}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Mailing Address Zip Code
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_mailingaddresszipcode
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_mailingaddresszipcode
+                        '@disabled': false
+                  - cell:
+                      '@id': '{14b1630a-27c3-4ee6-b10c-ce0e82ea0e12}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Mailing Address County
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_mailingaddresscounty
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_mailingaddresscounty
+                        '@disabled': false
+                  - cell:
+                      '@id': '{7cba681e-383f-47de-9a16-7182c43efa5b}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Mailing Address Latitude
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_mailingaddresslatitude
+                        '@classid': '{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}'
+                        '@datafieldname': prv_mailingaddresslatitude
+                        '@disabled': false
+                  - cell:
+                      '@id': '{a89ec1ba-0413-4629-9523-d9bb94d121f3}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Mailing Address Longitude
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_mailingaddresslongitude
+                        '@classid': '{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}'
+                        '@datafieldname': prv_mailingaddresslongitude
+                        '@disabled': false
+                  - cell:
+                      '@id': '{ba9eced1-46a1-4ed0-81a7-0f55f3073a26}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Primary Phone
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_primaryphone
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_primaryphone
+                        '@disabled': false
+                  - cell:
+                      '@id': '{04dbf865-c3d7-40df-b36f-b37e7886199b}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Date Submitted
+                          '@languagecode': 1033
+                      control:
+                        '@id': createdon
+                        '@classid': '{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}'
+                        '@datafieldname': createdon
+                        '@disabled': false
+                  - cell:
+                      '@id': '{1ff7424f-b1b9-4ef6-bbf6-75e8891a69ce}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Disposition Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_dispositiondate
+                        '@classid': '{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}'
+                        '@datafieldname': prv_dispositiondate
+                        '@disabled': false
+                  - cell:
+                      '@id': '{2d6c26a5-7313-4ec3-8f6a-ba2bc21e3789}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Primary Contact ID
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_primarycontactid
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_primarycontactid
+                        '@disabled': false
+                  - cell:
+                      '@id': '{fb3be3b9-8349-43c8-91a8-90a85dead54e}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Website
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_website
+                        '@classid': '{71716B6C-711E-476C-8AB8-5D11542BFB47}'
+                        '@datafieldname': prv_website
+                        '@disabled': false
+                  - cell:
+                      '@id': '{e2c513af-3fcc-41cf-8b8b-26867b3cc352}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': UID1
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_uid1
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_uid1
+                        '@disabled': false
+                  - cell:
+                      '@id': '{943fcc9e-6d21-4c43-84ea-5df13974e6f0}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': UID2
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_uid2
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_uid2
+                        '@disabled': false
+                  - cell:
+                      '@id': '{7e570070-0c55-4e64-8a62-2165639fb0e7}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Standard Industrial Classification Code (SIC)
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_standardindustrialclassificationcodesic
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': prv_standardindustrialclassificationcodesic
+                        '@disabled': false
+                  - cell:
+                      '@id': '{b82da724-77c2-42a9-a81d-841fd7389999}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{570b4d0d-ee2f-436c-8a00-6f511b7d77a1}'
+                      labels:
+                        label:
+                          '@description': Parent Organization
+                          '@languagecode': 1033
+                      control:
+                        '@id': prv_parentorganization
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': prv_parentorganization
+    header:
+      '@id': '{108ae34a-426c-4b4d-b47b-9f1e0da40ded}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{c7fdf037-7194-4de3-bec4-0583190ce1aa}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{42a9fe2d-015b-4bfb-b4e0-f51101875468}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{5536bd06-01e1-458d-b6fe-0496807e5790}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{ff3e1f68-a455-4c74-8de6-bffe5acb38c6}'
+            '@locklevel': 0
+            '@colspan': 1
+            '@rowspan': 1
+            labels:
+              label:
+                '@description': Status
+                '@languagecode': 1033
+            control:
+              '@id': header_prv_status
+              '@classid': '{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}'
+              '@datafieldname': prv_status
+              '@disabled': false
+    footer:
+      '@id': '{9a2bdef2-651c-463b-8af7-42b24af18343}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{b0a22c2d-63b6-4b57-9ea1-fabd7adc96ed}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{a7461198-d93f-4e55-8b4f-19a80d6b0cbc}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{e9313e9c-3abc-49a3-955b-6ffe39bcf188}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+    DisplayConditions:
+      '@Order': 0
+      '@FallbackForm': true
+      Everyone: 
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

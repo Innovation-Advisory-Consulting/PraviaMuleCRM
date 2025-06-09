@@ -1,0 +1,85 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_office365": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "iac_sharedoffice365_fe905"
+        },
+        "api": {
+          "name": "shared_office365"
+        }
+      },
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "iac_sharedcommondataserviceforapps_bf5a0"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "When_a_row_is_added,_modified_or_deleted": {
+          "metadata": {
+            "operationMetadataId": "ed04d970-c3a0-4306-8841-f8a437bab6d0"
+          },
+          "type": "OpenApiConnectionWebhook",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "SubscribeWebhookTrigger",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "subscriptionRequest/message": 1,
+              "subscriptionRequest/entityname": "prv_customer1",
+              "subscriptionRequest/scope": 4
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "actions": {
+        "Send_an_email_(V2)": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "1d887342-2541-4416-add9-2721841757f4"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_office365",
+              "operationId": "SendEmailV2",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365"
+            },
+            "parameters": {
+              "emailMessage/To": "@triggerOutputs()?['body/prv_email']",
+              "emailMessage/Subject": "Application Submitted Successfully ",
+              "emailMessage/Body": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Registration Confirmation</title>\n</head>\n<body style=\"font-family: Arial, sans-serif; background-color: #f4f6f8; padding: 30px;\">\n  <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"max-width: 600px; margin: auto; background-color: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px;\">\n    <tr>\n      <td style=\"background-color: #2E3A59; padding: 20px; color: #F4A261; font-size: 24px; font-weight: bold; border-top-left-radius: 8px; border-top-right-radius: 8px;\">\n        Pravia Mule Team\n      </td>\n    </tr>\n    <tr>\n      <td style=\"padding: 30px; color: #333333; font-size: 16px; line-height: 1.6;\">\n        <p>Dear <strong>@{triggerOutputs()?['body/prv_firstname']} @{triggerOutputs()?['body/prv_lastname']}</strong>,</p>\n        <p>Thank you for submitting your organization's registration request.</p>\n        <p>We have received your submission and our system is currently processing the information.</p>\n        <p>You will receive a follow-up notification once the registration process has been reviewed and completed.</p>\n        <p>If you have any questions in the meantime, please don't hesitate to contact us.</p>\n        <p style=\"margin-top: 40px;\">Best regards,<br><strong>Pravia Mule Team</strong></p>\n      </td>\n    </tr>\n    <tr>\n      <td style=\"background-color: #f1f1f1; padding: 15px; text-align: center; font-size: 12px; color: #999999; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;\">\n        &copy; 2025 Pravia. All rights reserved.\n      </td>\n    </tr>\n  </table>\n</body>\n</html>\n",
+              "emailMessage/Importance": "Normal"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "outputs": {}
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}
