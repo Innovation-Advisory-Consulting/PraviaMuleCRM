@@ -15,6 +15,42 @@ MissingDependencies:
       '@parentDisplayName': Customer
   - Required:
       '@type': 61
+      '@schemaName': Administration.svg
+      '@displayName': Administration.svg
+      '@solution': PowerPlatformEnvironmentSettings (1.1.1.1331)
+      package:
+        '@appName': PowerPlatformEnvironmentSettingsApp
+        '@version': 1.1.1.1331
+        '#text': PowerPlatformEnvironmentSettingsApp_Anchor (1.1.1.1331)
+    Dependent:
+      '@type': 62
+      '@schemaName': prv_PraviaMuleCRM
+  - Required:
+      '@type': 61
+      '@schemaName': adx_contacts.svg
+      '@displayName': adx_contacts.svg
+      '@solution': PowerPages_RuntimeCoreDependencies (1.0.2305.1)
+      package:
+        '@appName': Power Pages Core Package
+        '@version': 1.0.2501.142
+        '#text': PowerPages_Core (1.0.2501.142)
+    Dependent:
+      '@type': 62
+      '@schemaName': prv_PraviaMuleCRM
+  - Required:
+      '@type': 61
+      '@schemaName': ms_Environments
+      '@displayName': ms_Environments
+      '@solution': msdyn_AppDeploymentModelApp (9.1.25053.250515105)
+      package:
+        '@appName': AppDeployment Package
+        '@version': 9.1.25053.250515105
+        '#text': msdyn_AppDeploymentAnchor (9.1.25053.250515105)
+    Dependent:
+      '@type': 62
+      '@schemaName': prv_PraviaMuleCRM
+  - Required:
+      '@type': 61
       '@schemaName': msdyn_/Images/AppModule_Default_Icon.png
       '@displayName': msdyn_/Images/AppModule_Default_Icon.png
       '@solution': AppModuleWebResources (2.5)

@@ -9,6 +9,12 @@ RootComponents:
   - '@type': 1
     '@schemaName': prv_user1
     '@behavior': 0
+  - '@type': 9
+    '@schemaName': prv_granttype
+    '@behavior': 0
+  - '@type': 9
+    '@schemaName': prv_landusetype
+    '@behavior': 0
   - '@type': 29
     '@id': '{84e1c7a5-3d42-f011-b4cb-002248222778}'
     '@behavior': 0
