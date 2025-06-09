@@ -1,0 +1,47 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 0
+  savedqueryid: '{931ea805-5f70-4263-b33e-06415f9c3bdb}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': prv_contactname
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': prv_contact1id
+        cell:
+        - '@name': prv_contactname
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': prv_contact1
+        attribute:
+        - '@name': prv_contact1id
+        - '@name': prv_contactname
+        - '@name': createdon
+        order:
+          '@attribute': prv_contactname
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 1
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Inactive Contacts
+      '@languagecode': 1033

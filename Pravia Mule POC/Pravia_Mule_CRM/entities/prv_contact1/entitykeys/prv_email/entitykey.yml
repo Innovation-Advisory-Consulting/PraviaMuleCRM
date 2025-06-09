@@ -1,0 +1,11 @@
+EntityKey:
+  Name: prv_Email
+  LogicalName: prv_email
+  IntroducedVersion: 1.0.0.6
+  IsCustomizable: 0
+  EntityKeyAttributes:
+    AttributeName: prv_email
+  displaynames:
+    displayname:
+      '@description': Email
+      '@languagecode': 1033

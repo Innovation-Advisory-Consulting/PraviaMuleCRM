@@ -1,0 +1,113 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "iac_sharedcommondataserviceforapps_bf5a0"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      },
+      "shared_office365": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "iac_sharedoffice365_fe905"
+        },
+        "api": {
+          "name": "shared_office365"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "When_a_row_is_added,_modified_or_deleted": {
+          "metadata": {
+            "operationMetadataId": "cc198716-d78f-419d-ae7a-058415342b51"
+          },
+          "type": "OpenApiConnectionWebhook",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "SubscribeWebhookTrigger",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "subscriptionRequest/message": 3,
+              "subscriptionRequest/entityname": "prv_customer1",
+              "subscriptionRequest/scope": 4,
+              "subscriptionRequest/filterexpression": "prv_status eq 292620000"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "actions": {
+        "Add_a_new_row": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "f7b4b324-d9cc-4ecc-8fbd-0e89da240d2a"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "CreateRecord",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "prv_contact1s",
+              "item/prv_contactname": "@triggerOutputs()?['body/prv_firstname']",
+              "item/prv_email": "@triggerOutputs()?['body/prv_email']",
+              "item/prv_firstname": "@triggerOutputs()?['body/prv_firstname']",
+              "item/prv_lastname": "@triggerOutputs()?['body/prv_lastname']",
+              "item/prv_Organization@odata.bind": "./prv_customer1s(@{triggerOutputs()?['body/prv_customer1id']})"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "Send_an_email_(V2)": {
+          "runAfter": {
+            "Add_a_new_row": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "bd175678-2138-4f16-9fbc-68f41c2bd224"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_office365",
+              "operationId": "SendEmailV2",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365"
+            },
+            "parameters": {
+              "emailMessage/To": "@outputs('Add_a_new_row')?['body/prv_email']",
+              "emailMessage/Subject": "Organization Registration Approved",
+              "emailMessage/Body": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Registration Approved</title>\n</head>\n<body style=\"font-family: Arial, sans-serif; background-color: #f4f6f8; padding: 30px;\">\n  <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"max-width: 600px; margin: auto; background-color: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px;\">\n    <tr>\n      <td style=\"background-color: #2E3A59; padding: 20px; color: #F4A261; font-size: 24px; font-weight: bold; border-top-left-radius: 8px; border-top-right-radius: 8px;\">\n        Pravia Mule Team\n      </td>\n    </tr>\n    <tr>\n      <td style=\"padding: 30px; color: #333333; font-size: 16px; line-height: 1.6;\">\n        <p>Dear <strong> @{triggerOutputs()?['body/prv_firstname']}  @{triggerOutputs()?['body/prv_lastname']}</strong>,</p>\n        <p>We are pleased to inform you that your organization's registration has been <strong>successfully approved</strong>.</p>\n        <p>The organization is now active in our system. As the designated primary contact, you have been invited to register as a user and have been granted the role of <strong>System Administrator</strong>. This role allows you to manage your organization’s account and user permissions within the platform.</p>\n        <p>To get started, please log in using the credentials provided in your invitation email.</p>\n        <p>If you need assistance or have any questions, feel free to reach out to our support team.</p>\n        <p style=\"margin-top: 40px;\">Welcome aboard, and thank you for joining us!<br><strong>Pravia Mule Team</strong></p>\n      </td>\n    </tr>\n    <tr>\n      <td style=\"background-color: #f1f1f1; padding: 15px; text-align: center; font-size: 12px; color: #999999; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;\">\n        &copy; 2025 Pravia. All rights reserved.\n      </td>\n    </tr>\n  </table>\n</body>\n</html>\n",
+              "emailMessage/Importance": "Normal"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "outputs": {}
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

@@ -1,0 +1,57 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{6fd5f5d3-742e-4132-98af-a926281c854b}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': prv_username
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': prv_user1id
+        cell:
+        - '@name': prv_username
+          '@width': 300
+        - '@name': prv_email
+          '@width': 150
+        - '@name': prv_role
+          '@width': 150
+        - '@name': prv_status
+          '@width': 150
+        - '@name': prv_contact
+          '@width': 150
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': prv_user1
+        attribute:
+        - '@name': prv_user1id
+        - '@name': prv_username
+        - '@name': createdon
+        - '@name': prv_email
+        - '@name': prv_role
+        - '@name': prv_status
+        - '@name': prv_contact
+        order:
+          '@attribute': prv_username
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Active Users
+      '@languagecode': 1033
