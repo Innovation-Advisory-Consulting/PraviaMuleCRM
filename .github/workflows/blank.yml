@@ -1,0 +1,26 @@
+name: Push to Azure DevOps
+
+on:
+  push:
+    branches:
+      - main  # o la rama que uses
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Set up Git
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+
+    - name: Push to Azure DevOps
+      env:
+        AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
+      run: |
+        git remote add azure https://<USERNAME>@dev.azure.com/<ORG>/<PROJECT>/_git/<REPO>
+        git push azure HEAD:main
